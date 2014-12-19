@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>System Configuration Page</title>
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body>
+<h1>System Configuration Page</h1>
+
+<p class="body">Use the <strong>System Configuration</strong> page to view and set system settings, such as a hostname and comments, on your LabVIEW Real-Time target.</p>
+
+
+<table class="Borderless">
+<tr>
+<td class="button"><img src="../../../Help/note.gif"></td>
+<td><strong>Notes</strong>
+<ul>
+<li>Targets running LabVIEW Real-Time 2010 or later use a user name/password method of protecting system configuration. By default, each remote device includes a single user with the following name and password:<br><br>
+<strong>User name</strong>&#8212;<span class="Monospace">admin</span><br>
+<strong>Password</strong>&#8212;<span class="Monospace">&lt;blank&gt;</span></li>
+<li>You can restrict who has access to view the settings on this page using the <strong><span class="DNL">GetSystemConfiguration</span></strong> permission on the <strong>Security Configuration</strong> page. </li>
+</ul>
+
+
+</td>
+</tr>
+
+
+</table>
+
+<h2>System Settings</h2>
+<ol>
+<li>Enter a hostname in the <STRONG>Hostname</STRONG> text box. Choose a name that makes your system easy to identify.
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Your system may already have a name assigned to it. You can keep this name or enter another name.</td>
+</tr>
+</table></li>
+<li>Enter any comments in the <strong>Comments</strong> box.</li>
+<li>Use the <strong>Locale</strong> setting to change the locale of strings returned from the remote target. <strong>Locale</strong> selections include only those locales supported on the target. Not all software supports this setting.</li>
+<li>Enable <strong>Halt on IP Failure</strong> to stop the LabVIEW Real-Time Module if the network connection fails when you boot the remote system. If the system is configured to use DHCP but fails to receive a DHCP address, the system will reboot instead of using a link local address. If you clear the <strong>Halt on IP Failure</strong> checkbox, the LabVIEW Real-Time Module starts and runs startup applications you created, even if TCP/IP fails when you boot the system.</li>
+<li>Use <strong>System Configuration Web Access</strong> to specify from where the system configuration settings can be accessed for the target. Select <strong>Local Only</strong> to allow configuration only from the target. Select <strong>Local and Remote</strong> to allow both local and remote configuration. <span class="Platform">(Windows Embedded Standard 7)</span> Select <strong>Local and Remote</strong> to enable remote Web Service deployment from a LabVIEW project.</li>
+<li>Click <strong>Save</strong> to apply your changes.</li>
+</ol>
+
+<p>You can view, but not edit, the following items:</p>
+
+<ul>
+<li><strong>IP Address</strong> displays the IP address of the RT target. If this is the first time that you have started the controller, the setting could show a network address, a link-local address (<span class="Monospace">169.254.<em>x</em>.<em>x</em></span>), or <span class="Monospace">0.0.0.0</span>, depending on how your target acquires network addresses.</li>
+<li><strong>DNS Name</strong> displays the fully qualified DNS name (FQDN) for the target.</li>
+<li><strong>Vendor</strong> displays the vendor of the target system.</li>
+<li><strong>Model</strong> displays the model of the target system.</li>
+<li><strong>Serial Number</strong> displays the target system's serial number.</li>
+<li><strong>Operating System</strong> displays the operating system of the target system.</li>
+<li><strong>Status</strong> displays whether the system is running, rebooting, or disconnected.</li>
+</ul>
+
+<h2>Startup Settings</h2>
+<p>Use the following options to specify the startup settings for your target.</p>
+<ul>
+	<li><strong>Safe Mode</strong> specifies to boot into safe mode the next time the target is restarted. If you do not enable this option, the target may still boot into safe mode if an error occurred or there is no software installed.</li>
+	<li><strong>Console Out</strong> specifies to enable the console output the next time the target is restarted.</li>
+	<li><strong>Disable RT Startup App</strong> specifies to disable any LabVIEW startup application the next time the target is restarted.</li>
+	<li><strong>Enable Secure Shell Server</strong> specifies to enable sshd on the target. Starting sshd enables logins over SSH, an encrypted communication protocol. National Instruments recommends setting a password for the controller before logging in over SSH or serial connection.</li>
+	<li><strong>Disable FPGA Startup App</strong> specifies to disable any FPGA application the next time the target is restarted.</li>
+</ul>
+
+
+<h2>Updating Firmware</h2>
+
+
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Not all devices support firmware updates.</td>
+</tr>
+</table>
+<ol>
+	<li>Click the <strong>Update Firmware</strong> button.</li>
+	<li>Select the firmware image to which you want to upgrade from the drop-down list. You also can click the <strong>Browse</strong> button to select a firmware file from the host.
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp; If there are no firmware images available on your device, the <strong>Update Firmware</strong> button launches a dialog box for you to select a firmware image from the local host.</td>
+</tr>
+</table>
+</li>
+	<li>Click the <strong>Begin Update</strong> button. <!-- Add note about where they can see the progress of the update here. TBD. --></li>
+</ol>
+<p>You can erase firmware from a supported device by clicking the <strong>Erase Firmware</strong> button in the <strong>Settings</strong> section of the System Configuration page.</p>
+
+
+<h2>System Resources</h2>
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;The <strong>System Resources</strong> section is displayed only for LabVIEW Real-Time systems.</td>
+</tr>
+</table>
+<p>You can view, but not change, five system-level items in the <strong>System Resources</strong> section:</p>
+
+<ul>
+<li><strong>Total Physical Memory</strong> displays the total amount of physical memory on this target.</li>
+<li><strong>Free Physical Memory</strong> displays the amount of free physical memory on this target.</li>
+<li><strong>Total Virtual Memory</strong> displays the total amount of virtual memory on the system.</li>
+<li><strong>Free Virtual Memory</strong> displays the amount of free virtual memory on the system.</li>
+<li><strong>Largest Available Memory Block</strong> displays the size of the largest block of available memory on the system.</li>
+<li><strong>Primary Disk Capacity</strong> displays the total amount of disk space on the primary drive, for example <span class="Monospace">C:</span>, on this target.</li>
+<li><strong>Primary Disk Free Space</strong> displays the amount of free disk space on the primary drive, for example <span class="Monospace">C:</span>, on this target.</li>
+<li><strong>CPU Total Load</strong> displays the total load for each logical processor on the system. This is reported as a number from 0-100.</li>
+<li><strong>CPU Interrupt Load</strong> displays the percentage of time each logical processor in the system spent in kernel tasks such as handling interrupts. This is reported as a number from 0-100.</li>
+</ul>
+
+<h2>Slot Details</h2> 
+
+<p><strong>Slot Details</strong> displays a list of devices in a networked chassis, such as a cDAQ chassis, and includes the slot number, model, and serial number of each device. Click a chassis in the list on the left side of the <strong>System Configuration</strong> page to display the <strong>Slot Details</strong> section.</p>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Security Configuration Page</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body bgcolor="#ffffff">
+
+<noscript>
+<p class="Body">JavaScript is disabled.</p>
+<hr width="100%" noshade>
+</noscript>
+
+<h1>Security Configuration Page</h1>
+
+<!--<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Before you close, refresh, or log out of NI Web-based Monitoring and Configuration, you must click the <strong>Upload Changes</strong> button to save any changes to users, groups, and permissions.</td>
+
+</tr>
+</table>-->
+
+<p>Use this page to complete the following tasks:</p>
+
+<ul>
+	<li><a href="#secure_target">Secure</a> a target</li>
+	<li><a href="#change_pw">Change</a> a user's password
+	
+	<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;By default, the <span class="Monospace">admin</span> password is blank. To secure the Web Application Server, National Instruments recommends changing the password for this user as soon as possible.</td>
+
+</tr>
+</table>
+	
+	</li>
+	<li><a href="#add_users">Add</a> or remove users to or from the list of users that can configure the Web Application Server on this target</li>
+	<li><a href="#user_group">Assign</a> users to a group or remove users from a group</li>
+	<li><a href="#assign_permissions">Grant</a> or deny <a href="#permissions">permissions</a> to users and groups</li>	
+</ul>
+
+<a name="secure_target"></a><h2>Securing a Target</h2>
+<p>National Instruments recommends that you complete the following steps to secure a target:</p>
+
+<ol>
+	<li>Change the administrator password. By default, this password is blank.
+		<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Changing the <strong>admin</strong> password also changes the password you use to access the target from Measurement &amp; Automation Explorer, the LabVIEW Real-Time Module, and other applications.</td></tr>
+	
+	</table>
+		<ul>
+			<li>Click the <strong>Users</strong> tab on the left side of this page and select the <strong>admin</strong> user.</li>
+			<li>Click the <strong>Change Password</strong> button on the right side of this page.</li>
+			<li>Enter and confirm the new password and click <strong>OK</strong>.</li>
+		</ul>
+	</li>
+	<li>Remove permissions from the <strong><span id="DNL">everyone</span></strong> group. By default, this group has all permissions.
+		<ul>
+			<li>Click the <strong>Groups</strong> tab on the left side of this page and select the <strong><span class="DNL">everyone</span></strong> group.</li>
+			<li>Select permissions from the <strong>Permissions</strong> list on the right side of this page and click the <strong>-</strong> to remove them.</li>
+			<li>Apply the changes to the target.</li>
+		</ul>	
+	</li>	
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<a name="change_pw"></a><h2>Changing a User's Password</h2>
+<p>Complete the following steps to change a user's password:</p>
+
+<ol>
+	<li>Click the <strong>Users</strong> tab on the left side of this page and select the user's name.</li>
+	<li>Click the <strong>Change Password</strong> button on the right side of this page.</li>
+	<li>Enter and confirm the new password and click <strong>OK</strong>.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<a name="add_users"></a><h2>Adding and Removing Users</h2>
+
+<p>Complete the following steps to add a user:</p>
+<ol>
+	<li>Click the <strong>Users</strong> tab on the left side of this page.</li>
+	<li>Click the <strong>+</strong> button at the bottom of this tab.</li>
+	<li>Enter a <strong>User Name</strong> on the right side of this dialog box.</li>
+	<li><a href="#change_pw">Change the user's password</a>.</li>
+	<li><a href="#assign_permissions">Grant or deny</a> permissions to the user.</li>
+	<li>(Optional) <a href="#user_group">Assign</a> the user to a group. New users are automatically added to the <strong><span class="DNL">everyone</span></strong> group.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<p>Complete the following steps to remove a user:</p>
+<ol>
+	<li>Select the user from the <strong>Users</strong> tab on the left side of this page.</li>
+	<li>Click the <strong>-</strong> button at the bottom of this tab.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+
+
+<a name="user_group"></a><h2>Assigning Users to a Group or Removing Users from a Group</h2>
+
+<p>Complete the following steps to assign users to a group:</p>
+
+<ol>
+	<li>Select the group from the <strong>Groups</strong> tab on the left side of this page.</li>
+	<li>Locate the <strong>This group contains the following users</strong> field on the right side of this page.</li>
+	<li>Click the <strong>+</strong> button at the bottom of this field.</li>
+	<li>Select the user(s) to add to the group and click <strong>OK</strong>.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<p>Complete the following steps to remove users from a group:</p>
+<ol>
+	<li>Select the group from the <strong>Groups</strong> tab on the left side of this page.</li>
+	<li>Locate the <strong>This group contains the following users</strong> field on the right side of this page.</li>
+	<li>Select the user you want to remove from the group.</li>
+	<li>Click the <strong>-</strong> button at the bottom of this field.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<a name="assign_permissions"></a><h2>Granting and Denying Permissions to a User or Group</h2>
+
+<p>Complete the following steps to grant or deny <a href="#permissions">permissions</a> to a user or group:</p>
+
+<ol>
+	<li>Select the user or group from the <strong>Users</strong> or <strong>Groups</strong> tab on the left side of this page.</li>
+	<li>Locate the <strong>This user/group has the following permissions</strong> field on the right side of this page.</li>
+	<li>Use the <strong>+</strong> and <strong>-</strong> buttons at the bottom of this field to grant or deny permissions.</li>
+	<li>Click <strong>Save</strong> to save changes.</li>
+</ol>
+
+<a name="permissions"></a><h2>List of Permissions</h2>
+
+
+<h3>Desktop Computers</h3>
+<ul>
+<li><strong><span class="DNL">GetDB</span></strong>&#8212;View users, groups, and permissions on the <strong>Security Configuration</strong> page.</li>
+<li><strong><span class="DNL">GetSystemConfiguration</span></strong>&#8212;View the settings on the <strong>System Configuration</strong>, <strong>System Settings</strong>, <strong>Network Configuration</strong>, and <strong>Time Configuration</strong> pages.</li>
+<li><strong><span class="DNL">GetWSAPIKey</span></strong>&#8212;Get the Web services API key.</li>
+<li><strong><span class="DNL">ManageExtensions</span></strong>&#8212;Enable and disable Web configuration tools using the <strong>Installed Configuration Tools</strong> page.</li>
+<li><strong><span class="DNL">ManageWS</span></strong>&#8212;Pause, resume, and restart published Web services on the <strong>Web Services Management</strong> page.</li>
+<li><strong>NIWebCer</strong>&#8212;Replicate the hidden files, such as SSL certificates and signing requests.</li>
+<li><strong><span class="DNL">SetDB</span></strong>&#8212;Modify the user's own password and comments on the <strong>Security Configuration</strong> page. A user must have both the <strong>GetDB</strong> and <strong>SetDB</strong> permissions to modify their own permissions and other user, group, and permission data.</li>
+<li><strong><span class="DNL">SetSystemConfiguration</span></strong>&#8212;Modify the settings on the <strong>System Settings</strong> page.</li>
+<li><strong><span class="DNL">SetWSAPIKey</span></strong>&#8212;Set the Web services API key.</li>
+<li><strong><span class="DNL">UndeployWS</span></strong>&#8212;Unpublish published Web services on the <strong>Web Services Management</strong> page.</li>
+<li><strong><span class="DNL">WIFConfigureAppServer</span></strong>&#8212;Configure the System and Application Web Servers on the <strong>Web Server Configuration</strong> page. Refer to the <em>LabVIEW Help</em> for information about the System and Application Web Servers.</li>
+</ul>
+
+<h3>Remote Targets</h3>
+<ul>
+<li><strong><span class="DNL">fsdelete</span></strong>&#8212;Delete files on the <strong>Remote File Browser</strong> page.</li>
+<li><strong><span class="DNL">fsread</span></strong>&#8212;Read files on the <strong>Remote File Browser</strong> page.</li>
+<li><strong><span class="DNL">fswrite</span></strong>&#8212;Edit files on the <strong>Remote File Browser</strong> page.</li>
+<li><strong><span class="DNL">GetDB</span></strong>&#8212;View users, groups, and permissions on the <strong>Security Configuration</strong> page.</li>
+<li><strong><span class="DNL">GetSystemConfiguration</span></strong>&#8212;View the settings on the <strong>System Configuration</strong>, <strong>System Settings</strong>, <strong>Network Configuration</strong>, and <strong>Time Configuration</strong> pages.</li>
+<li><strong><span class="DNL">manageextensions</span></strong>&#8212;Enable and disable Web configuration tools using the <strong>Installed Configuration Tools</strong> page.</li>
+<li><strong><span class="DNL">ManageWS</span></strong>&#8212;Pause, resume, and restart published Web services on the <strong>Web Services Management</strong> page.</li>
+<li><strong><span class="DNL">reboot</span></strong>&#8212;Reboot the remote system.</li>
+<li><strong><span class="DNL">remoteshell</span></strong>&#8212;Reserved for future use.</li>
+<li><strong><span class="DNL">SetDB</span></strong>&#8212;Modify the user's own password and comments on the <strong>Security Configuration</strong> page. A user must have both the <strong>GetDB</strong> and <strong>SetDB</strong> permissions to modify their own permissions and other user, group, and permission data.</li>
+<li><strong><span class="DNL">setlocale</span></strong>&#8212;Modify the <strong>Locale</strong> on the <strong>System Settings</strong> page.</li>
+<li><strong><span class="DNL">setrtlockpassword</span></strong>&#8212;Set the password to lock the remote system.</li>
+<li><strong><span class="DNL">setsystemconfiguration</span></strong>&#8212;Modify the <strong>General Settings</strong> on the <strong>System Settings</strong> page.</li>
+<li><strong><span class="DNL">UndeployWS</span></strong>&#8212;Unpublish published Web services on the <strong>Web Services Management</strong> page.</li>
+<li><strong><span class="DNL">viewconsoleoutput</span></strong>&#8212;View output on the <strong>Console</strong> page.</li>
+<li><strong><span class="DNL">WIFConfigureAppServer</span></strong>&#8212;Configure the System and Application Web Servers on the <strong>Web Server Configuration</strong> page. Refer to the <em>LabVIEW Help</em> for information about the System and Application Web Servers.</li>
+</ul>
+	
+<!--<h1>Reference</h1>
+<p class="Body">This page includes the following components.</p>
+
+<ul>
+	<li>Users
+		<ul>
+			<li>User Name</li>
+			<li>Comments</li>
+			<li>Password Last Changed</li>
+			<li>Change Password</li>
+			<li>Groups:</li>
+			<li>Permissions:</li>
+		</ul>
+	</li>
+	<li>Groups
+		<ul>
+			<li>Group Name</li>
+			<li>Users</li>
+			<li>Permissions</li>
+		</ul>
+	</li>
+	<li>Permissions
+		<ul>
+			<li>Permission Name</li>
+			<li>Users:</li>
+			<li>Groups:</li>
+		</ul>
+	</li>
+
+</ul>
+<ul>
+<li><strong>New User</strong>&#8212;Creates a new user that can log in to the target.</li>
+<li><strong>New Permission</strong>&#8212;Creates a new security permission that you can grant to users or groups.  Use permissions to grant access for users to monitor and configure the system, and interact with LabVIEW Web services applications running on the system. Refer to the <em>LabVIEW Help</em> for information about using permissions to secure Web services.</li>
+<li><strong>Remove</strong>&#8212;Removes the selected user, group, or permission.</li>
+<li><strong>Upload Changes</strong>&#8212;Uploads all user, group, and permission settings to the target. You must click this button to save any changes before you close, refresh, or log out of NI Web-based Monitoring and Configuration.</li>
+<li><strong>Users</strong>&#8212;Displays the list of users with security permissions to monitor or configure the system.
+<ul>
+<li><strong>Username</strong>&#8212;Specifies the name of the selected user.</li>
+<li><strong>Built In</strong>&#8212;Displays whether the selected user is built into the system, such as <span class="monospace">admin</span>, or user-created.</li>
+<li><strong>ID</strong>&#8212;Displays a unique identification number for the selected user. The system assigns increasing numerical values for the ID number, starting at <span class="monospace">0</span> for <span class="monospace">admin</span> and <span class="monospace">1</span> for the first user that you create.</li>
+<li><strong>New Password</strong>&#8212;Specifies a password for the selected user.</li>
+<li><strong>Re-type New Password</strong>&#8212;Confirms the password for the selected user.</li>
+<li><strong>Password Last Changed</strong>&#8212;Displays the date and time of the last password change for the selected user.</li>
+<li><strong>Comments</strong>&#8212;Specifies any comments to associate with the selected user.</li>
+<li><strong>Group(s)</strong>&#8212;Specifies the groups in which to include the selected user.</li>
+<li><strong>Permission(s)</strong>&#8212;Specifies the permissions to grant to the selected user.</li>
+</ul>
+</li>
+<li><strong>Groups</strong>&#8212;Displays the list of groups with security permissions to monitor or configure the system. Use groups to define uniform sets of permissions for multiple users. You cannot add additional groups.
+<ul>
+<li><strong>Username</strong>&#8212;Specifies the name of the selected group.</li>
+<li><strong>Built In</strong>&#8212;Displays that the group is built into the system and not user-created.</li>
+<li><strong>ID</strong>&#8212;Displays a unique identification number for the selected group.</li>
+<li><strong>User(s)</strong>&#8212;Displays the users included in the selected group.</li>
+<li><strong>Permission(s)</strong>&#8212;Displays the permissions to grant to the selected group.</li>
+</ul>
+</li>
+<li><strong>Permissions</strong>&#8212;Displays the list of security permissions on the target.
+
+</li>
+<li><strong><span class="DNL">Built In</span></strong>&#8212;Displays whether the permission is built into the system or user-created.</li>
+<li><strong><span class="DNL">ID</span></strong>&#8212;Displays an identification number for the selected permission.</li>
+<li><strong><span class="DNL">Group(s)</span></strong>&#8212;Specifies which groups to grant the selected permission.</li>
+<li><strong><span class="DNL">User(s)</span></strong>&#8212;Specifies which users to grant the selected permission.</li>
+</ul>
+</li>
+
+</ul>-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,661 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="CompactRIO" displayname="CompactRIO">
+</nifamily>
+</nicomment>
+<nierror code="-65635">
+CompactRIO:  The module IO conversion period exceeds the Scan Engine Scan Period.  Either increase the Scan Engine Scan Period or reduce the module IO converion period.
+</nierror>
+<nierror code="-65634">
+CompactRIO:  The value entered for the Rated Phase Current property is not in the valid range. Valid values are greater than or equal to 0 A and less than or equal to the maximum value specified in the NI 9501 Operating Instructions and Specifications.
+
+
+
+</nierror>
+<nierror code="-65633">
+CompactRIO:  The Rated Phase Current cannot be 0. Change the Rated Phase Current to a valid non-zero value. Refer to the help documentation for more information about this property.
+</nierror>
+<nierror code="-65632">
+CompactRIO:  The drive is disabled due to a fault or other hardware issue. Use the Get Status method to determine the source of the issue, resolve the issue, then execute the Enable Drive method.
+</nierror>
+<nierror code="-65631">
+CompactRIO:  You cannot execute this node when the drive is disabled. Enable the drive and try again.
+</nierror>
+<nierror code="-65630">
+CompactRIO:  You cannot update this property when the drive is enabled. Disable the drive before updating this property.
+</nierror>
+<nierror code="-65629">
+CompactRIO:  The value entered for the Splines per Scan property is not in the valid range. Valid values are 1 to 65,536.
+</nierror>
+<nierror code="-65628">
+CompactRIO:  The value entered for the Spline Rate or Setpoint Rate property is not in the valid range. Valid values are 2000 to 20,000 module clock ticks.
+</nierror>
+<nierror code="-65627">
+CompactRIO:  You cannot update this property when the module is in Fault state or Active state. Switch the module to Configuration state before updating this property.
+</nierror>
+<nierror code="-65626">
+CompactRIO:  You cannot update properties when the module is in Initialization state. Switch to Configuration state before changing any properties.
+</nierror>
+<nierror code="-65625">
+CompactRIO:  You cannot use this method when the module is in Initialization or Configuration state. Switch to Active or Fault state before executing this method.
+</nierror>
+<nierror code="-65624">
+CompactRIO:  You cannot switch to Active state from Fault state until you clear the fault condition(s).
+</nierror>
+<nierror code="-65623">
+CompactRIO:  You cannot switch from Initialization state to Active state or Fault state. The only valid state change from Initialization state is to Configuration state.
+</nierror>
+<nierror code="-65622">
+CompactRIO:  Unable to communicate with the module. Reinsert the module and check connections. If the problem persists, contact National Instruments.
+</nierror>
+<nierror code="-65621">
+CompactRIO:  The project contains a module in slot 16 that does not match the type of the module in slot 16 of the chassis.
+</nierror>
+<nierror code="-65620">
+CompactRIO:  The project contains a module in slot 15 that does not match the type of the module in slot 15 of the chassis.
+</nierror>
+<nierror code="-65619">
+CompactRIO:  The project contains a module in slot 14 that does not match the type of the module in slot 14 of the chassis.
+</nierror>
+<nierror code="-65618">
+CompactRIO:  The project contains a module in slot 13 that does not match the type of the module in slot 13 of the chassis.
+</nierror>
+<nierror code="-65617">
+CompactRIO:  The project contains a module in slot 12 that does not match the type of the module in slot 12 of the chassis.
+</nierror>
+<nierror code="-65616">
+CompactRIO:  The project contains a module in slot 11 that does not match the type of the module in slot 11 of the chassis.
+</nierror>
+<nierror code="-65615">
+CompactRIO:  The project contains a module in slot 10 that does not match the type of the module in slot 10 of the chassis.
+</nierror>
+<nierror code="-65614">
+CompactRIO:  The project contains a module in slot 9 that does not match the type of the module in slot 9 of the chassis.
+</nierror>
+<nierror code="-65613">
+CompactRIO:  The project contains a module in slot 8 that does not match the type of the module in slot 8 of the chassis.
+</nierror>
+<nierror code="-65612">
+CompactRIO:  The project contains a module in slot 7 that does not match the type of the module in slot 7 of the chassis.
+</nierror>
+<nierror code="-65611">
+CompactRIO:  The project contains a module in slot 6 that does not match the type of the module in slot 6 of the chassis.
+</nierror>
+<nierror code="-65610">
+CompactRIO:  The project contains a module in slot 5 that does not match the type of the module in slot 5 of the chassis.
+</nierror>
+<nierror code="-65609">
+CompactRIO:  The project contains a module in slot 4 that does not match the type of the module in slot 4 of the chassis.
+</nierror>
+<nierror code="-65608">
+CompactRIO:  The project contains a module in slot 3 that does not match the type of the module in slot 3 of the chassis.
+</nierror>
+<nierror code="-65607">
+CompactRIO:  The project contains a module in slot 2 that does not match the type of the module in slot 2 of the chassis.
+</nierror>
+<nierror code="-65606">
+CompactRIO:  The project contains a module in slot 1 that does not match the type of the module in slot 1 of the chassis.
+</nierror>
+<nierror code="-65605">
+CompactRIO:  The project contains a module in slot 16 but slot 16 is empty.
+</nierror>
+<nierror code="-65604">
+CompactRIO:  The project contains a module in slot 15 but slot 15 is empty.
+</nierror>
+<nierror code="-65603">
+CompactRIO:  The project contains a module in slot 14 but slot 14 is empty.
+</nierror>
+<nierror code="-65602">
+CompactRIO:  The project contains a module in slot 13 but slot 13 is empty.
+</nierror>
+<nierror code="-65601">
+CompactRIO:  The project contains a module in slot 12 but slot 12 is empty.
+</nierror>
+<nierror code="-65600">
+CompactRIO:  The project contains a module in slot 11 but slot 11 is empty.
+</nierror>
+<nierror code="-65599">
+CompactRIO:  The project contains a module in slot 10 but slot 10 is empty.
+</nierror>
+<nierror code="-65598">
+CompactRIO:  The project contains a module in slot 9 but slot 9 is empty.
+</nierror>
+<nierror code="-65597">
+CompactRIO:  The project contains a module in slot 8 but slot 8 is empty.
+</nierror>
+<nierror code="-65596">
+CompactRIO:  The project contains a module in slot 7 but slot 7 is empty.
+</nierror>
+<nierror code="-65595">
+CompactRIO:  The project contains a module in slot 6 but slot 6 is empty.
+</nierror>
+<nierror code="-65594">
+CompactRIO:  The project contains a module in slot 5 but slot 5 is empty.
+</nierror>
+<nierror code="-65593">
+CompactRIO:  The project contains a module in slot 4 but slot 4 is empty.
+</nierror>
+<nierror code="-65592">
+CompactRIO:  The project contains a module in slot 3 but slot 3 is empty.
+</nierror>
+<nierror code="-65591">
+CompactRIO:  The project contains a module in slot 2 but slot 2 is empty.
+</nierror>
+<nierror code="-65590">
+CompactRIO:  The project contains a module in slot 1 but slot 1 is empty.
+</nierror>
+<nierror code="-65589">
+CompactRIO:  The FPGA VI you are running does not contain the DMA FIFOs that the RIO Scan Interface requires. Ensure that the modules under the Chassis item in the project match the modules in the chassis, and recompile the FPGA VI.
+</nierror>
+<nierror code="-65587">
+CompactRIO:  The bitfile required by the RIO Scan Interface is either missing or corrupt. Reinstall the software on the LabVIEW Real-Time target.
+</nierror>
+<nierror code="-65583">
+CompactRIO:  (Hex 0xFFFEFFD1) A common-mode range error was detected.
+</nierror>
+<nierror code="-65582">
+CompactRIO:  (Hex 0xFFFEFFD2) An open thermocouple was detected.
+</nierror>
+<nierror code="-65581">
+CompactRIO:  (Hex 0xFFFEFFD3) The bitfile currently running on the CompactRIO chassis is not configured to support using the RIO Scan Interface in this slot. In the LabVIEW Project window, move the module in the slot from under the FPGA target item to under the chassis item, then recompile the bitfile.
+</nierror>
+<nierror code="-65580">
+CompactRIO:  (Hex 0xFFFEFFD4) The FPGA personality running on the RIO target does not have enough specialty digital resources to support this module.
+</nierror>
+<nierror code="-65537">
+CompactRIO:  (Hex 0xFFFEFFFF) The module that was detected is different than the module that was expected. Make sure the slot the module is configured for in software matches the physical location of the module.
+</nierror>
+<nierror code="-65536">
+CompactRIO:  (Hex 0xFFFF0000) Unable to communicate with the module. Reinsert the module and check connections. If the chassis is in FPGA Interface programming mode, make sure you have opened an FPGA reference to a bitfile or FPGA VI with Scan Interface support for the module you are trying to access using the Scan Interface.
+</nierror>
+<nierror code="-65512">
+CompactRIO:  The data transfer for some I/O variables on this target could not be completed in the allotted time and the updates for some values may have been delayed. Increase the Scan Period to avoid this problem.
+</nierror>
+<nierror code="-65511">
+CompactRIO:  The RIO Scan Interface is attempting to read too many I/O points. Please move some modules from under the chassis item to under the FPGA Target item in the project, or delete some user-defined variables from your application.
+</nierror>
+<nierror code="-65501">
+CompactRIO:  The user-defined I/O variable you are trying to access could not be found. Please make sure that you have opened an FPGA reference to an FPGA VI or bitfile that contains the variable you are trying to access.
+</nierror>
+<nierror code="-65408">
+CompactRIO:  This deploy operation did not succeed because the model number of the module in the slot did match the project.
+</nierror>
+<nierror code="-65407">
+CompactRIO:  In Scan Interface mode, you can configure only two slots for specialty digital I/O. If you want more specialty digital slots, add an FPGA target under the chassis to put the chassis in LabVIEW FPGA interface mode.
+</nierror>
+<nierror code="65000">
+CompactRIO:  (Hex 0xFDE8) Unable to mount drive.  The given device is either not present or not recognizable as a mountable device.
+</nierror>
+<nierror code="65001">
+CompactRIO:  (Hex 0xFDE9) No partitions found.  The partition table on the device is corrupt or the device has zero partitions on it.
+</nierror>
+<nierror code="65002">
+CompactRIO:  (Hex 0xFDEA) Invalid drive handle.  The given handle does not represent an active mounted drive.
+</nierror>
+<nierror code="65003">
+CompactRIO:  (Hex 0xFDEB) Drive already mounted.  The given device is already mounted as a drive.
+</nierror>
+<nierror code="65004">
+CompactRIO:  (Hex 0xFDEC) The channel, slot, or connector number you wired to the method input is invalid. Change the method input to match the configuration of the CompactRIO system.
+</nierror>
+<nierror code="65005">
+CompactRIO:  (Hex 0xFDED) The C Series module at the specified location does not support TEDS or TEDS access is not enabled for the module.
+</nierror>
+<nierror code="65006">
+CompactRIO:  (Hex 0xFDEE) Communication with the module timed out. The module is busy performing another action or LabVIEW is unable to communicate with the module. 
+</nierror>
+<nierror code="65007">
+CompactRIO:  (Hex 0xFDEF) No TEDS sensor was detected on the specified channel. Make sure that the C Series module and sensor are properly connected. Make sure the specified location matches the sensor location.
+</nierror>
+<nierror code="65008">
+CompactRIO:  (Hex 0xFDF0) CompactRIO does not support the TEDS sensor connected to this channel.
+</nierror>
+<nierror code="65009">
+CompactRIO:  (Hex 0xFDF1) The PXI trigger that you have selected to reserve or unreserve is invalid.  Valid PXI triggers are 0 through 7, inclusive.
+</nierror>
+<nierror code="65010">
+CompactRIO:  (Hex 0xFDF2) You cannot mount or unmount an SD card on this operating system.
+</nierror>
+<nierror code="65011">
+CompactRIO:  (Hex 0xFDF3) Data could not be read. Unable to determine TEDS standard template type. Verify sensor connections and that the sensor is a standard type. If the problem persists, read the entire sensor EEPROM by selecting Entire EEPROM on the Data to Read terminal of the Read TEDS Invoke Method.
+</nierror>
+<nierror code="65100">
+CompactRIO:  (Hex 0xFE4C) You have entered a data rate that is not supported by the selected module and oversample clock frequency.
+</nierror>
+<nierror code="65200">
+CompactRIO:  (Hex 0xFEB0) DIO Line Access Conflict
+</nierror>
+<nierror code="65201">
+CompactRIO:  (Hex 0xFEB1) Duplicate Terminals In The Same Node. 
+</nierror>
+<nierror code="65202">
+CompactRIO:  (Hex 0xFEB2) Digital Resource Access Conflict
+</nierror>
+<nierror code="65203">
+CompactRIO:  Module Timebase Configuration Error
+</nierror>
+<nierror code="65204">
+CompactRIO:  (Hex 0xFEB4) Digital Resource Access Conflict
+</nierror>
+<nierror code="65205">
+CompactRIO:  Invalid C Series Module Configuration
+</nierror>
+<nierror code="65206">
+CompactRIO:  (Hex 0xFEB6) Invalid top-level clock
+</nierror>
+<nierror code="65207">
+CompactRIO:  Digital Resource Access Conflict
+</nierror>
+<nierror code="65208">
+CompactRIO:  Synchronizing C Series Modules in the Expansion Chassis
+</nierror>
+<nierror code="65209">
+CompactRIO:  Cannot write to Sleep
+</nierror>
+<nierror code="65210">
+CompactRIO:  Invalid Top-Level Clock
+</nierror>
+<nierror code="65211">
+CompactRIO:  (Hex 0xFEBB) Reached Limit of User-Defined Variable Address Space
+</nierror>
+<nierror code="65212">
+CompactRIO:  Missing Timing Constraints
+</nierror>
+<nierror code="65213">
+CompactRIO:  (Hex 0xFEBD) Not Supported on R Series
+</nierror>
+<nierror code="65214">
+CompactRIO:  The NI 9862 is not supported in this version of LabVIEW FPGA.
+</nierror>
+<nierror code="65215">
+CompactRIO:  (Hex 0xFEBF) One or more nodes have been incorrectly placed inside of a Single Cycle Timed Loop.  Please ensure that only SCTL nodes are used inside of the Single Cycle Timed Loop.
+</nierror>
+<nierror code="65216">
+CompactRIO:  (Hex 0xFEC0) One or more nodes have been incorrectly placed outside of a Single Cycle Timed Loop.  Please ensure that only non-SCTL nodes are used outside of the Single Cycle Timed Loop.
+</nierror>
+<nierror code="65217">
+CompactRIO:  (Hex 0xFEC1) A particular node has been placed on the diagram more than once. 
+</nierror>
+<nierror code="65218">
+CompactRIO:  (Hex 0xFEC2) A module in your project contains invalid module support files.  Please contact the module vendor.
+</nierror>
+<nierror code="65219">
+CompactRIO:  (Hex 0xFEC3) An internal error has occurred.  Please contact the module vendor.
+</nierror>
+<nierror code="65220">
+CompactRIO:  (Hex 0xFEC4) An internal error has occurred.  Please contact the module vendor.
+</nierror>
+<nierror code="65221">
+CompactRIO:  (Hex 0xFEC5) An internal error has occurred.  Please contact the module vendor.
+</nierror>
+<nierror code="65222">
+CompactRIO:  (Hex 0xFEC6) An internal error has occurred.  Please contact the module vendor.
+</nierror>
+<nierror code="65223">
+CompactRIO:  (Hex 0xFEC7) An internal error has occurred.  Please contact the module vendor.
+</nierror>
+<nierror code="65224">
+CompactRIO:  (Hex 0xFEC8) DIO Line Access Conflict with Zero Synchronizing Registers
+</nierror>
+<nierror code="65300">
+CompactRIO:  (Hex 0xFF14) Unable to communicate with the device. Please power off the sbRIO system and ensure device connections are secure.
+</nierror>
+<nierror code="65301">
+CompactRIO:  (Hex 0xFF15) A DO update was attempted while the device was not ready to perform this operation. The DO update was delayed or gated.
+</nierror>
+<nierror code="65400">
+CompactRIO:  The FPGA target is either running an FPGA VI or has loaded an FPGA VI.
+</nierror>
+<nierror code="65401">
+CompactRIO:  One or more discovered C Series modules are not supported by the current versions of LabVIEW and NI-RIO. The unsupported modules are: %s.
+</nierror>
+<nierror code="65402">
+CompactRIO:  An internal software error in NI-RIO has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="65403">
+CompactRIO:  An unexpected error occurred when Discovering C Series Modules.
+
+Make sure the LabVIEW Project is set up properly.
+</nierror>
+<nierror code="65404">
+CompactRIO:  The controller you selected has an unconfigured (0.0.0.0) IP address. If the controller is online, configure it in Measurement & Automation Explorer (MAX), then make sure the IP address in LabVIEW matches the IP address in MAX. If it is offline, you cannot discover connected targets and devices, but you can add new, offline targets and devices.
+</nierror>
+<nierror code="65405">
+CompactRIO:  The module whose configuration you deployed is not present in the chassis.
+</nierror>
+<nierror code="65406">
+CompactRIO:  The module whose configuration you deployed does not match the model currently in the chassis.
+</nierror>
+<nierror code="65407">
+CompactRIO:  In Scan Interface mode, you can configure only two slots for specialty digital I/O. If you want more specialty digital slots, add an FPGA target under the chassis to put the chassis in LabVIEW FPGA Interface mode.
+</nierror>
+<nierror code="65409">
+CompactRIO:  (Hex 0xFF81) The module is not compatible with this version of NI-RIO.  Please contact the module's vendor for support.
+</nierror>
+<nierror code="65536">
+CompactRIO:  (Hex 0x10000) Unable to communicate with the module. Reinsert the module and check connections.
+</nierror>
+<nierror code="65537">
+CompactRIO:  (Hex 0x10001) The module that was detected is different than the module that was expected. Make sure the slot the module is configured for in software matches the physical location of the module.
+</nierror>
+<nierror code="65538">
+CompactRIO:  (Hex 0x10002) The operation failed to complete in time. Make sure the module is not busy and the system is configured properly.
+</nierror>
+<nierror code="65539">
+CompactRIO:  (Hex 0x10003) The input function missed one or more data points. Make sure the loop can execute as fast as the module data rate.
+</nierror>
+<nierror code="65540">
+CompactRIO:  (Hex 0x10004) The I/O Resource is not in communication mode. You must start communication mode before you can perform this operation. 
+</nierror>
+<nierror code="65541">
+CompactRIO:  (Hex 0x10005) The I/O Resource is in communication mode. You must stop communication mode before you can perform this operation.
+</nierror>
+<nierror code="65542">
+CompactRIO:  (Hex 0x10006) One or more channels have detected an open current loop. Check the module connections.
+</nierror>
+<nierror code="65543">
+CompactRIO:  (Hex 0x10007) The power supply voltage level is out of range. Check the supply voltage and the module connections. 
+</nierror>
+<nierror code="65544">
+CompactRIO:  (Hex 0x10008) One or more channels are in overcurrent protection mode. The device connected to the channel is passing more current than is allowed through the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="65545">
+CompactRIO:  (Hex 0x10009) An input parameter, or combination of parameters, is invalid.
+</nierror>
+<nierror code="65546">
+CompactRIO:  (Hex 0x1000A) Your application uses a feature that is not supported by your C Series hardware.
+</nierror>
+<nierror code="65547">
+CompactRIO:  (Hex 0x1000B) Too many CAN bus error frames are detected. Please refer to the description of the 'Error Terminals' for more information.
+</nierror>
+<nierror code="65548">
+CompactRIO:  (Hex 0x1000C) One or more channels are in overcurrent or overvoltage protection mode. Check the terminals for any fault condition that could be causing an out-of-range voltage or current on the channels.
+</nierror>
+<nierror code="65549">
+CompactRIO:  A general or undefined error has occurred. Verify that the card is inserted properly and that the door is closed. If the error occurs again, run CHKDSK on the card.
+</nierror>
+<nierror code="65550">
+CompactRIO:  A problem was found in the file system. Remove the SD card and run CHKDSK.
+</nierror>
+<nierror code="65551">
+CompactRIO:  The SD card is in use by RT. Try again after RT unmounts the card.
+</nierror>
+<nierror code="65552">
+CompactRIO:  The SD card is not ready. Verify that the card is inserted properly and that the door is closed.
+</nierror>
+<nierror code="65553">
+CompactRIO:  You cannot open the SD card door and access the card at the same time.
+</nierror>
+<nierror code="65554">
+CompactRIO:  The specified file does not exist on the card.
+</nierror>
+<nierror code="65555">
+CompactRIO:  The Open method tried to open a new file for writing, but a file with the same name already exists on the disk.
+</nierror>
+<nierror code="65556">
+CompactRIO:  A Read or Write method tried to access a file that was not opened in the required mode.
+</nierror>
+<nierror code="65557">
+CompactRIO:  Reserved.
+</nierror>
+<nierror code="65558">
+CompactRIO:  A Close method tried to close a file that was not open.
+</nierror>
+<nierror code="65559">
+CompactRIO:  A method tried to open a file on the SD card when a file was already open.  This device supports only one file open at a time.  This error is also returned when an illegal attempt to call the Delete File or Get File Size method is made when a file is open on the card.
+</nierror>
+<nierror code="65560">
+CompactRIO:  An attempt to allocate storage failed because the file system is full.
+</nierror>
+<nierror code="65561">
+CompactRIO:  Attempted to exceed the limit of 512 root directory entries.
+</nierror>
+<nierror code="65562">
+CompactRIO:  A Read method tried to read beyond the end of a file. This may have occurred when the method read the end of a file using a U16 or U32 data type when the actual number of bytes in the file (as reported by the directory) was not an integer multiple of the number of bytes in the read data type.
+</nierror>
+<nierror code="65563">
+CompactRIO:  A problem was found with the format of the SD card. Verify that the SD card is formatted with a valid FAT16 file system.
+</nierror>
+<nierror code="65564">
+CompactRIO:  A method tried to open a read-only file for writing. Reserved.
+</nierror>
+<nierror code="65565">
+CompactRIO:  SD Cmd CRC Error. Reserved
+</nierror>
+<nierror code="65566">
+CompactRIO:  SD Read Data CRC Error. Reserved
+
+</nierror>
+<nierror code="65567">
+CompactRIO:  SD Write Data CRC Error. Reserved
+</nierror>
+<nierror code="65568">
+CompactRIO:  SD Read Data Timeout. Reserved
+</nierror>
+<nierror code="65569">
+CompactRIO:  SD Response Timeout. Reserved
+</nierror>
+<nierror code="65570">
+CompactRIO:  Serial module external power error: An external power error has occurred since the last time the module was accessed. Ensure that power (8 - 28 VDC) is correctly applied to the VSUP and COM terminals on the front panel of the module.
+</nierror>
+<nierror code="65571">
+CompactRIO:  Serial module over-temperature error: An over-temperature error has occurred since the last time the module was accessed.  Check for fault conditions or extraneous voltages on the I/O port.
+</nierror>
+<nierror code="65572">
+CompactRIO:  Serial module break error: A serial break has occurred (the RXD input was held at SPACE for at least one byte time frame).
+</nierror>
+<nierror code="65573">
+CompactRIO:  Serial module framing error: A framing error has occurred in the data being read. Check the serial cable connections and module configuration options such as Baud Rate, Stop Bits, and Data Bits.
+</nierror>
+<nierror code="65574">
+CompactRIO:  Serial module parity error: A parity error has occurred in the data being read. Ensure that the module Parity is configured correctly.
+</nierror>
+<nierror code="65575">
+CompactRIO:  Serial module overrun error: An overrun error has occurred in the data being read. Ensure that the module Flow Control is configured correctly.
+</nierror>
+<nierror code="65576">
+CompactRIO:  Unused Serial Module Error
+</nierror>
+<nierror code="65577">
+CompactRIO:  (Hex 0x10029) An open thermocouple was detected on at least one channel.  Check the module connections.
+</nierror>
+<nierror code="65578">
+CompactRIO:  (Hex 0x1002A) The common-mode voltage is outside of acceptable limits on at least one channel.  Check the terminals for any fault condition that could be causing an out-of-range voltage on the channels.
+</nierror>
+<nierror code="65579">
+CompactRIO:  The module is in overcurrent protection mode. Check the terminals for any fault condition that could be causing an out-of-range current.
+</nierror>
+<nierror code="65580">
+CompactRIO:  The bitfile does not support this 9802 command.  Try compiling a new bitfile with a more recent version of LabVIEW FPGA.
+</nierror>
+<nierror code="65581">
+CompactRIO:  There is no 9802 support compiled into this bitfile.
+</nierror>
+<nierror code="65582">
+CompactRIO:  (Hex 0x1002E) The operation did not complete because one or more modules in the I/O Node has not returned data.  This may be because the acquisition has not started.  Use the Start and Stop channels to put the module in and out of acquisition mode.
+</nierror>
+<nierror code="65583">
+CompactRIO:  (Hex 0x1002F) The module failed to complete the operation. Reinsert the module and check connections. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="65584">
+CompactRIO:  The device cannot be powered down because it is actively connected to a host.
+</nierror>
+<nierror code="65585">
+CompactRIO:  (Hex 0x10031) Open thermocouple detection is currently disabled. The Check Cached Status method cannot accurately report whether or not there are disconnected thermocouples.
+</nierror>
+<nierror code="65586">
+CompactRIO:  (Hex 0x10032) The operation did not complete because a user-controlled I/O sampling reset is in progress.
+</nierror>
+<nierror code="65588">
+CompactRIO:  (Hex 0x10034) The module is not yet initialized.  If you are using the User-Controlled I/O Sampling functions, you must first call the Reset I/O Method function and wait for it to complete before calling any other User-Controlled I/O Sampling functions.
+</nierror>
+<nierror code="65635">
+CompactRIO:  (Hex 0x10063) The input parameter for the Number of Fixes for Self-survey property is out of range.  Refer to the module documentation for the valid range.
+</nierror>
+<nierror code="65636">
+CompactRIO:  (Hex 0x10064) One or more channels are out of range.  Check the module connections.
+</nierror>
+<nierror code="65637">
+CompactRIO:  (Hex 0x10065) One or more channels have an open loop or a short circuit. Check the module connections.
+</nierror>
+<nierror code="65638">
+CompactRIO:  (Hex 0x10066) The value for the PPS Compensation property is out of range.  Refer to the module documentation for the valid range.
+</nierror>
+<nierror code="65639">
+CompactRIO:  (Hex 0x10067) At least one of the coordinates provided is out of range.  Latitude must be in the following range, -90° <= Latitude <= 90°.  Longitude must be in the following range, -180° < Longitude <= 180°. Refer to the module help documentation for the appropriate altitude range.
+</nierror>
+<nierror code="65640">
+CompactRIO:  (Hex 0x10068) The firmware on the module is not compatible with this version of the NI RIO software.  Please visit ni.com for instructions on how to update the firmware.
+</nierror>
+<nierror code="65641">
+CompactRIO:  (Hex 0x10069) The selected configuration for the GPS C Series module is invalid. When 'Stationary with Preset Location' is selected as the GPS Mode, the Preset Location must be set.
+</nierror>
+<nierror code="65642">
+CompactRIO:  (Hex 0x1006A) The trigger could not be sent. Make sure that None (Input) is not selected as the line source of the trigger and that it is not configured to carry a clock.
+</nierror>
+<nierror code="65643">
+CompactRIO:  (Hex 0x1006B) The Wait On Trigger method cannot execute on a trigger line configured to carry a clock. Select another trigger line or change the clock routing configuration in the C Series Module Properties dialog box.
+</nierror>
+<nierror code="65644">
+CompactRIO:  (Hex 0x1006C) Port line direction change failed because the maximum number of port lines are configured for output on the module. Refer to the module help documentation for the maximum number of simultaneous port line outputs.
+</nierror>
+<nierror code="65645">
+CompactRIO:  (Hex 0x1006D) The specified line does not support the selected source. Refer to the module help documentation for a list of valid sources for each line.
+</nierror>
+<nierror code="65646">
+CompactRIO:  (Hex 0x1006E) The specified line is not configured to import a clock or it is already configured as the source of another line.
+</nierror>
+<nierror code="65647">
+CompactRIO:  (Hex 0x1006F) The configuration of the specified line cannot be changed because it is configured to carry a clock.
+</nierror>
+<nierror code="65648">
+CompactRIO:  (Hex 0x10070) The specified line does not support the selected source because the source is configured to carry a clock. To export the clock carried on the selected source, set the source of the specified line to be the clock.
+</nierror>
+<nierror code="65649">
+CompactRIO:  (Hex 0x10071) The module did not export the generated trigger because this trigger line is not configured as the source for any of the port lines.
+</nierror>
+<nierror code="65650">
+CompactRIO:  (Hex 0x10072) The operation failed to complete in time because the imported oversample clock was not ready. Make sure the system is configured properly.
+</nierror>
+<nierror code="65651">
+CompactRIO:  (Hex 0x10073) The source of the specified trigger cannot be set to clock since it is not configured to export the clock. Change the clock routing configuration in the C Series Module Properties dialog box in order to output the clock from the specified trigger.
+</nierror>
+<nierror code="65652">
+CompactRIO:  (Hex 0x10074) A DO update was attempted while the module was not ready to perform this operation. The DO update was delayed or gated.
+</nierror>
+<nierror code="65653">
+CompactRIO:  (Hex 0x10075) The operation did not complete because a module reset is in progress.
+</nierror>
+<nierror code="65700">
+CompactRIO:  Unable to communicate with the module. Reinsert the module and check connections.
+</nierror>
+<nierror code="65701">
+CompactRIO:  The module that was detected is different than the module that was expected. Make sure the slot the module is configured for in software matches the physical location of the module.
+</nierror>
+<nierror code="65702">
+CompactRIO:  The FPGA personality currently running on the CompactRIO chassis does not support the RIO Scan Interface in this slot.
+</nierror>
+<nierror code="65703">
+CompactRIO:  Remote module access is not supported
+</nierror>
+<nierror code="65704">
+CompactRIO:  Could not resolve RSI module URL
+</nierror>
+<nierror code="65705">
+CompactRIO:  This RSI module does not accept configuration for this channel
+</nierror>
+<nierror code="65706">
+CompactRIO:  The value for 9205 minimum time between conversion must be at least 4 us
+</nierror>
+<nierror code="65707">
+CompactRIO:  The value for 9219 digital threshold must be between 0 and 60
+</nierror>
+<nierror code="65708">
+CompactRIO:  Invalid direction string
+</nierror>
+<nierror code="65709">
+CompactRIO:  Current limit values must be between 0 and 5.1
+</nierror>
+<nierror code="65710">
+CompactRIO:  The value for overcurrent refresh period must be between 2 and 255.
+</nierror>
+<nierror code="65711">
+CompactRIO:  It is invalid to change the mode of a 9219 channel programmatically.
+</nierror>
+<nierror code="65712">
+CompactRIO:  Digital input modules cannot be configured to be a PWM or a counter slave.
+</nierror>
+<nierror code="65713">
+CompactRIO:  Digital output modules cannot be configured to be a counter or a quadrature.
+</nierror>
+<nierror code="65714">
+CompactRIO:  RTD A constant must be between 0.001 and 0.01
+</nierror>
+<nierror code="65715">
+CompactRIO:  RTD B constant must be between -1E-8 and -1E-6.
+</nierror>
+<nierror code="65716">
+CompactRIO:  RTD C constant must be between -1E-12 and -1E-11
+</nierror>
+<nierror code="65717">
+CompactRIO:  RTD Ro constant must be between 0 and 1000
+</nierror>
+<nierror code="65718">
+CompactRIO:  Invalid Input Configuration change
+</nierror>
+<nierror code="65719">
+CompactRIO:  The enum value is out of range
+</nierror>
+<nierror code="65720">
+CompactRIO:  This property is not valid for this module, or is not valid for the current configuration of this module.
+</nierror>
+<nierror code="65721">
+CompactRIO:  You can use the Reset Counter method only to reset a counter configured to count edges.
+</nierror>
+<nierror code="65722">
+CompactRIO:  This method is not valid for this module, or is not valid for the current configuration of this module.
+</nierror>
+<nierror code="65723">
+CompactRIO:  This module cannot be configured while the controller engine is in its current mode.
+</nierror>
+<nierror code="65724">
+CompactRIO:  Specialty digital configuration is not supported for EtherCAT modules.
+</nierror>
+<nierror code="65725">
+CompactRIO:  The value used is out of range.
+</nierror>
+<nierror code="65726">
+CompactRIO:  Configuration information for this Property was not found.  The Property might need to be set before it can be read.
+</nierror>
+<nierror code="65727">
+CompactRIO:  Invalid slot number
+</nierror>
+<nierror code="65728">
+CompactRIO:  This version of the EtherCAT software does not support this operation.
+</nierror>
+<nierror code="65729">
+CompactRIO:  This information is currently not available.  Change to active mode or refresh modules.
+</nierror>
+<nierror code="65990">
+CompactRIO:  Device type does not support calibration
+</nierror>
+<nierror code="65991">
+CompactRIO:  Hardware Calibration Map Revision Number does not match supported software version.  This is often caused by the device's flash being programmed incorrectly.  Please contact National Instruments.
+</nierror>
+<nierror code="65992">
+CompactRIO:  Incorrect calibration password specified
+</nierror>
+<nierror code="65993">
+CompactRIO:  Invalid new calibration password. Maximum length for new calibration password is 4 characters.
+</nierror>
+<nierror code="65994">
+CompactRIO:  Failed to calibrate board. Calibration constants are not within the limits.
+</nierror>
+<nierror code="65995">
+CompactRIO:  Reached iteration limit before determining correct reference value.
+</nierror>
+<nierror code="65996">
+CompactRIO:  Verification of calibration data written to the board failed. Re-run the calibration procedure.
+</nierror>
+</nidocument>

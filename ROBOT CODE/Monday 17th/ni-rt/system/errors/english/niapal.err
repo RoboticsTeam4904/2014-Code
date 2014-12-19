@@ -1,0 +1,166 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI Platform Services" displayname="NI Platform Services">
+</nifamily>
+</nicomment>
+<nierror code="-52026">
+NI Platform Services:  The operation could not be completed because the user does not have sufficient permissions.  Consider running as an administrator.
+</nierror>
+<nierror code="-52025">
+NI Platform Services:  The operation was interrupted by a user mode signal.
+</nierror>
+<nierror code="-52024">
+NI Platform Services:  An unknown or unexpected communication fault occurred while attempting to read data from or write data to a device.
+</nierror>
+<nierror code="-52023">
+NI Platform Services:  No transfer is in progress because the transfer was aborted by the client. The operation could not be completed as specified.
+</nierror>
+<nierror code="-52022">
+NI Platform Services:  IO processing is not active.
+</nierror>
+<nierror code="-52021">
+NI Platform Services:  There is not enough power to complete the requested operation.
+</nierror>
+<nierror code="-52020">
+NI Platform Services:  The requested resource has been removed.
+</nierror>
+<nierror code="-52019">
+NI Platform Services:  The supplied buffer is too small.
+</nierror>
+<nierror code="-52018">
+NI Platform Services:  A hardware failure has occurred. The operation could not be completed as specified.
+</nierror>
+<nierror code="-52017">
+NI Platform Services:  The operation you requested is redundant or invalid when the object is in this state.
+</nierror>
+<nierror code="-52016">
+NI Platform Services:  The thread was running when you attempted to start it (redundant state change).
+</nierror>
+<nierror code="-52015">
+NI Platform Services:  The acquisition of the synchronization object failed.
+</nierror>
+<nierror code="-52014">
+NI Platform Services:  The synchronization object was abandoned by the previous holder.
+</nierror>
+<nierror code="-52013">
+NI Platform Services:  The name or handle requested has already been reserved by another client.
+</nierror>
+<nierror code="-52012">
+NI Platform Services:  There is no more data available to read or no more space available in which to write.
+</nierror>
+<nierror code="-52011">
+NI Platform Services:  The operation has begun and will complete asynchronously.
+</nierror>
+<nierror code="-52010">
+NI Platform Services:  The requested resource must be initialized before use.
+</nierror>
+<nierror code="-52009">
+NI Platform Services:  The requested resource has been marked for deletion and is rejecting new requests.
+</nierror>
+<nierror code="-52008">
+NI Platform Services:  An unexpected operating system error occurred.
+</nierror>
+<nierror code="-52007">
+NI Platform Services:  The requested operation did not complete in time.
+</nierror>
+<nierror code="-52006">
+NI Platform Services:  The requested resource was not located.
+</nierror>
+<nierror code="-52005">
+NI Platform Services:  The parameter recieved by the function is not valid.
+</nierror>
+<nierror code="-52004">
+NI Platform Services:  The dynamic cast operation failed.
+</nierror>
+<nierror code="-52003">
+NI Platform Services:  An unexpected software error occurred.
+</nierror>
+<nierror code="-52002">
+NI Platform Services:  The requested feature is not supported.
+</nierror>
+<nierror code="-52001">
+NI Platform Services:  The memory could not be page locked.
+</nierror>
+<nierror code="-52000">
+NI Platform Services:  The specified number of bytes could not be allocated.
+</nierror>
+<nierror code="52000">
+NI Platform Services:  The specified number of bytes could not be allocated.
+</nierror>
+<nierror code="52001">
+NI Platform Services:  The memory could not be page locked.
+</nierror>
+<nierror code="52002">
+NI Platform Services:  The requested feature is not supported.
+</nierror>
+<nierror code="52003">
+NI Platform Services:  An unexpected software error occurred.
+</nierror>
+<nierror code="52004">
+NI Platform Services:  The dynamic cast operation failed.
+</nierror>
+<nierror code="52005">
+NI Platform Services:  The parameter recieved by the function is not valid.
+</nierror>
+<nierror code="52006">
+NI Platform Services:  The requested resource was not located.
+</nierror>
+<nierror code="52007">
+NI Platform Services:  The requested operation did not complete in time.
+</nierror>
+<nierror code="52008">
+NI Platform Services:  An unexpected operationg system error occurred.
+</nierror>
+<nierror code="52009">
+NI Platform Services:  The requested resource has been marked for deletion and is rejecting new requests.
+</nierror>
+<nierror code="52010">
+NI Platform Services:  The requested resource must be initialized before use.
+</nierror>
+<nierror code="52011">
+NI Platform Services:  The operation has begun and will complete asynchronously.
+</nierror>
+<nierror code="52012">
+NI Platform Services:  There is no more data available to read or no more space available in which to write.
+</nierror>
+<nierror code="52013">
+NI Platform Services:  The name or handle requested has already been reserved by another client.
+</nierror>
+<nierror code="52014">
+NI Platform Services:  The synchronization object was abandoned by the previous holder.
+</nierror>
+<nierror code="52015">
+NI Platform Services:  The acquisition of the synchronization object failed.
+</nierror>
+<nierror code="52016">
+NI Platform Services:  The thread was running when you attempted to start it (redundant state change).
+</nierror>
+<nierror code="52017">
+NI Platform Services:  The operation you requested is redundant or invalid when the object is in this state.
+</nierror>
+<nierror code="52018">
+NI Platform Services:  A hardware failure has occurred. The operation could not be completed as specified.
+</nierror>
+<nierror code="52019">
+NI Platform Services:  The supplied buffer is too small.
+</nierror>
+<nierror code="52020">
+NI Platform Services:  The requested resource has been removed.
+</nierror>
+<nierror code="52021">
+NI Platform Services:  There is not enough power to complete the requested operation.
+</nierror>
+<nierror code="52022">
+NI Platform Services:  IO processing is not active.
+</nierror>
+<nierror code="52023">
+NI Platform Services:  No transfer is in progress because the transfer was aborted by the client. The operation could not be completed as specified.
+</nierror>
+<nierror code="52024">
+NI Platform Services:  An unknown or unexpected communication fault occurred while attempting to read data from or write data to a device.
+</nierror>
+<nierror code="52025">
+NI Platform Services:  The operation was interrupted by a user mode signal.
+</nierror>
+</nidocument>

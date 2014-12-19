@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+   <DisplayInfo Path="DisplayInfo.xml"/>
+   <Directory>HardwareConfig</Directory>
+   <Control ControlPath="HardwareConfig.xap" EntryPoint="Page.dyn.xaml">NationalInstruments.Config.Hardware</Control>
+   <!-- TODO: Create icon with this name and put in your Images folder (on the server, not in this project) -->
+   <Icon>Images/HardwareConfig.png</Icon>
+   <!-- TODO: Create help file and put at location below-->
+   <Help>Help/HardwareConfigHelp.htm</Help>
+   <ACL>
+      <!-- TODO Insert Required Permissions here if needed-->
+      <RequiredPermissions/>
+   </ACL>
+</Extension>

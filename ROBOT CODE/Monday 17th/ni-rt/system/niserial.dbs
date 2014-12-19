@@ -1,0 +1,6 @@
+[NonPnpDevice\VEN_5125&DEV_232\f0011000]
+UniqueId = 4026601472
+
+[NonPnpDevice\VEN_5125&DEV_232\f0011000\Port1]
+SerialPortName = "COM1"
+

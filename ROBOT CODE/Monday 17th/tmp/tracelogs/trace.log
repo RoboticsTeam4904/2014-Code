@@ -1,0 +1,363 @@
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=C818A0 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:09
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:09 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:08
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.
+
+===================================================
+TraceEngine Started at JAN 01 1970 00:00:08
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FirmwareUpdate' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSDelete' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSRead' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'FSWrite' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetDB' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetSystemConfiguration' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'GetWSAPIKey' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageExtensions' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ManageWS' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'NIWebCer' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'Reboot' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'RemoteShell' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetDB' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetRTLockPassword' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetSystemConfiguration' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'SetWSAPIKey' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'ViewConsoleOutput' on database load.
+JAN 01 1970 00:00:08 | t=CA7F88 | ERROR | niauth | ValidateUserHasPermission_ | User 'admin' did not have permission 'WIFConfigureAppServer' on database load.

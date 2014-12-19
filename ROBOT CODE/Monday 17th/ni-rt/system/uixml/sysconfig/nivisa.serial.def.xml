@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" weight="0">
+    <property id="serialportbinding" caption="{serialportbinding}" sysattr="17076224" order="22000" />
+    <property id="serialportdesc" caption="{serialportdesc}" sysattr="67112960" order="22100" undefinedif="" />
+  </group>
+  <group id="portsettings" caption="{portsettings}" order="100" weight="100">
+    <property id="serialbaud" caption="{serialbaud}" sysattr="67117056" order="100" />
+    <property id="serialdata" caption="{serialdata}" sysattr="67121152" order="200" />
+    <property id="serialparity" caption="{serialparity}" sysattr="67125248" order="300">
+      <map value="0" caption="{serialparitynone}" />
+      <map value="1" caption="{serialparityodd}" />
+      <map value="2" caption="{serialparityeven}" />
+      <map value="3" caption="{serialparitymark}" />
+      <map value="4" caption="{serialparityspace}" />
+    </property>
+    <property id="serialstop" caption="{serialstop}" sysattr="67129344" order="400">
+      <map value="10" caption="1" />
+      <map value="15" caption="{serialstoponeandhalf}" />
+      <map value="20" caption="2" />
+    </property>
+    <property id="serialflow" caption="{serialflow}" sysattr="67133440" order="500">
+      <map value="0" caption="{serialflownone}" />
+      <map value="1" caption="{serialflowxonxoff}" />
+      <map value="2" caption="{serialflowrtscts}" />
+      <map value="4" caption="{serialflowdtrdsr}" />
+    </property>
+  </group>
+</item>

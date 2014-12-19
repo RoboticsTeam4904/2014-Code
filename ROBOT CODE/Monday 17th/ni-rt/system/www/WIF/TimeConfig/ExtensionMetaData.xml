@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>TimeConfig</Directory>
+  <Control ControlPath="TimeConfig.xap" EntryPoint="TimeConfigPage.dyn.xaml">NationalInstruments.Config.TimeSync</Control>
+  <Icon>Images/TimeConfigIcon.png</Icon>
+  <Help>Help/TimeConfigHelp.htm</Help>
+  <ACL>
+    <!-- TODO Insert Required Permissions here if needed-->
+    <RequiredPermissions/>
+  </ACL>
+</Extension>
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>FileBrowser</Directory>
+  <Control ControlPath="FileBrowser.xap" EntryPoint="FileBrowserPage.dyn.xaml">FileBrowser</Control>
+  <Icon>Images/FileBrowserIcon.png</Icon>
+  <!-- TODO: Create help file and put at location below-->
+  <Help>Help/FileBrowserHelp.htm</Help>
+  <ACL>
+    <RequiredPermissions>
+      <Permission>FSRead</Permission>
+    </RequiredPermissions>
+  </ACL>
+</Extension>

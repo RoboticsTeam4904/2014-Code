@@ -1,0 +1,184 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI-RIO" displayname="NI-RIO">
+</nifamily>
+</nicomment>
+<nierror code="-63198">
+NI-RIO:  (Hex 0xFFFF0922) The system has run out of resources. Close a session and retry the operation.
+</nierror>
+<nierror code="-63197">
+NI-RIO:  (Hex 0xFFFF0923) An invalid attribute value has been specified.
+</nierror>
+<nierror code="-63196">
+NI-RIO:  (Hex 0xFFFF0924) An invalid attribute has been specified.
+</nierror>
+<nierror code="-63195">
+NI-RIO:  (Hex 0xFFFF0925) The handle for device communication is invalid or has been closed. Restart the application.
+</nierror>
+<nierror code="-63194">
+NI-RIO:  (Hex 0xFFFF0926) The NI-RIO software on the target system is not compatible with this software. Upgrade the NI-RIO software on the target system.
+</nierror>
+<nierror code="-63193">
+NI-RIO:  (Hex 0xFFFF0927) The requested feature is not supported.
+</nierror>
+<nierror code="-63192">
+NI-RIO:  (Hex 0xFFFF0928) Either the supplied resource name is invalid as a RIO resource name, or the device was not found. Use MAX to find the proper resource name for the intended device.
+</nierror>
+<nierror code="-63189">
+NI-RIO:  (Hex 0xFFFF092B) The supplied search pattern is invalid.
+</nierror>
+<nierror code="-63188">
+NI-RIO:  (Hex 0xFFFF092C) The operation is no longer supported.
+</nierror>
+<nierror code="-63187">
+NI-RIO:  (Hex 0xFFFF092D) This remote system does not support connections to other remote systems.
+</nierror>
+<nierror code="-63184">
+NI-RIO:  (Hex 0xFFFF0930) The selected bitfile requires a driver that could not be loaded or that was invalid. Use MAX to install all necessary software to your target. Note that if your project includes modules under the chassis item, user-defined variables, or references to the Scan Clock Chassis I/O item, you must install NI-RIO IO Scan software to the target.
+</nierror>
+<nierror code="-63183">
+NI-RIO:  (Hex 0xFFFF0931) An invalid port was specified. The RIO server port must be between 0 and 65535, where 0 indicates a dynamically assigned port. Port 3580 is reserved and cannot be used.
+</nierror>
+<nierror code="-63182">
+NI-RIO:  (Hex 0xFFFF0932) An invalid device access setting was specified. RIO device access patterns may contain only alphanumerics, '-', '_', '.', and '*'.
+</nierror>
+<nierror code="-63181">
+NI-RIO:  (Hex 0xFFFF0933) The supplied alias was not found.
+</nierror>
+<nierror code="-63180">
+NI-RIO:  (Hex 0xFFFF0934) The resource name specified is either a reserved word or an invalid alias.  RIO aliases may contain only alphanumerics, '-', and '_'.
+</nierror>
+<nierror code="-63150">
+NI-RIO:  (Hex 0xFFFF0952) An unspecified hardware failure has occurred. The operation could not be completed.
+</nierror>
+<nierror code="-63107">
+NI-RIO:  The bitfile you are trying to use is not compatible with the version of NI-RIO installed on the target and/or the host. Determine which versions of NI-RIO and LabVIEW were used to make the bitfile, update the software on the target and host to that version or later, and try again.
+</nierror>
+<nierror code="-63106">
+NI-RIO:  The specified bitfile is not the bitfile used to generate the C API. Specify the original bitfile or regenerate the C API for this bitfile.
+</nierror>
+<nierror code="-63105">
+NI-RIO:  The C/C++ identifier "%s" is already in use and could not be created.
+</nierror>
+<nierror code="-63104">
+NI-RIO:  Could not convert "%s" to a valid C/C++ identifier.
+</nierror>
+<nierror code="-63103">
+NI-RIO:  Invalid prefix override. Prefixes must include only alphanumerics and underscores.
+</nierror>
+<nierror code="-63102">
+NI-RIO:  Invalid output directory.
+</nierror>
+<nierror code="-63101">
+NI-RIO:  A valid .lvbitx bitfile is required. If you are using a vaild .lvbitx bitfile, the bitfile may not be compatible with the software you are using. Determine which version of LabVIEW was used to make the bitfile, update your software to that version or later, and try again.
+</nierror>
+<nierror code="-63100">
+NI-RIO:  Invalid usage. The syntax is as follows:
+
+capigen.exe [-e] [<bitfile> [<output_directory> [<prefix_override>]]]
+</nierror>
+<nierror code="-63085">
+NI-RIO:  (Hex 0xFFFF0993) The FPGA Read/Write Control Function is accessing a control or indicator with data that exceeds the maximum size supported on the current target. Refer to the hardware documentation for the limitations on data types for this target.
+</nierror>
+<nierror code="-63084">
+NI-RIO:  A function was called using a misaligned address. The address must be a multiple of the size of the datatype.
+</nierror>
+<nierror code="-63083">
+NI-RIO:  A Configure FIFO, Stop FIFO, Read FIFO, or Write FIFO function was called while the host had acquired elements of the FIFO. Release all acquired elements before configuring, stopping, reading, or writing.
+</nierror>
+<nierror code="-63082">
+NI-RIO:  (Hex 0xFFFF0996) The operation could not complete because another session is accessing the FIFO. Close the other session and retry.
+</nierror>
+<nierror code="-63081">
+NI-RIO:  (Hex 0xFFFF0997) The caller did not allocate a memory buffer.
+</nierror>
+<nierror code="-63080">
+NI-RIO:  (Hex 0xFFFF0998) The allocated buffer is too small.
+</nierror>
+<nierror code="-63073">
+NI-RIO:  (Hex 0xFFFF099F) The specified event did not occur within the specified time period, in milliseconds. Extend the time period, or ignore if the result was expected.
+</nierror>
+<nierror code="-63072">
+NI-RIO:  (Hex 0xFFFF09A0) The specified RIO event has not been enabled for this session. Attempting a Wait on IRQ after an Abort causes this error.
+</nierror>
+<nierror code="-63071">
+NI-RIO:  (Hex 0xFFFF09A1) The specified RIO event has already been enabled for this session.
+</nierror>
+<nierror code="-63070">
+NI-RIO:  (Hex 0xFFFF09A2) The specified event type is invalid.
+</nierror>
+<nierror code="-63052">
+NI-RIO:  (Hex 0xFFFF09B4) Trigger lines are not supported or enabled. For PXI, identify the controller and chassis using MAX.
+</nierror>
+<nierror code="-63051">
+NI-RIO:  The specified trigger line is not reserved in the current session.
+</nierror>
+<nierror code="-63050">
+NI-RIO:  (Hex 0xFFFF09B6) The specified trigger line is already reserved. Consult the MAX Trigger settings or the trigger reservations for each device within the system.
+</nierror>
+<nierror code="-63044">
+NI-RIO:  (Hex 0xFFFF09BC) The RIO server could not be found on the specified remote device. Ensure that NI-RIO software is installed and that the RIO server is running and properly configured.
+
+For NI-RIO 2.3 and later, refer to Software>>NI-RIO>>NI-RIO Settings under the system in MAX.
+Prior to NI-RIO 2.3, refer to Software>>NI-VISA>>VISA Options under the system in MAX.
+</nierror>
+<nierror code="-63043">
+NI-RIO:  (Hex 0xFFFF09BD) The session is invalid. The target may have been reset or rebooted, or the network connection may have timed out because of processor overuse. Check the network connection, reduce the demand on the processor, and decrease the timeout of the operation that failed. If the problem persists, refer to NI KnowledgeBase article 4CJDJBLX.
+</nierror>
+<nierror code="-63042">
+NI-RIO:  (Hex 0xFFFF09BE) A fault on the network caused the operation to fail.
+</nierror>
+<nierror code="-63041">
+NI-RIO:  (Hex 0xFFFF09BF) The connection to the remote device has been lost due to an error on the remote device. Retry the operation. If the remote device continues to report this error, check its power supply and look for diagnostic messages on the console.
+</nierror>
+<nierror code="-63040">
+NI-RIO:  (Hex 0xFFFF09C0) A connection could not be established to the specified remote device. Ensure that the device is on and accessible over the network, that NI-RIO software is installed, and that the RIO server is running and properly configured.
+
+For NI-RIO 2.3 and later, refer to Software>>NI-RIO>>NI-RIO Settings under the system in MAX.
+Prior to NI-RIO 2.3, refer to Software>>NI-VISA>>VISA Options under the system in MAX.
+</nierror>
+<nierror code="-63038">
+NI-RIO:  (Hex 0xFFFF09C2) The NI-RIO software on the host is not compatible with the software on the target. Upgrade the NI-RIO software on the host in order to connect to this target.
+</nierror>
+<nierror code="-63036">
+NI-RIO:  (Hex 0xFFFF09C4) The operation could not be completed because the device being accessed was unavailable, either because it was disconnected from the network or because power was removed (e.g., the system went into a low-power state). Close any RIO FPGA sessions; check network, USB, and power connections; power-cycle the device if necessary; and open a new RIO session.
+</nierror>
+<nierror code="-63035">
+NI-RIO:  (Hex 0xFFFF09C5) The attempt to open a RIO session failed because the driver was not yet initialized.
+</nierror>
+<nierror code="-63033">
+NI-RIO:  (Hex 0xFFFF09C7) Access to the remote system was denied. If you are trying to connect to an RT target, use MAX to check the Remote Device Access settings under Software>>NI-RIO>>NI-RIO Settings on the remote system. If you are trying to connect to a desktop Linux target, check the settings in /etc/natinst/nirio/nirio.ini on the Linux target.
+</nierror>
+<nierror code="-63031">
+NI-RIO:  (Hex 0xFFFF09C9) The operation could not be completed because another session is accessing the device. Close all other sessions and retry.
+</nierror>
+<nierror code="-63030">
+NI-RIO:  (Hex 0xFFFF09CA) Operation failed due to device reconfiguration. Multiple sessions to FPGA devices are not supported. Close the other session and retry this operation.
+</nierror>
+<nierror code="-63003">
+NI-RIO:  (Hex 0xFFFF09E5) 
+The NI-RIO driver was unable to allocate memory for a FIFO. This can happen when the combined depth of all DMA FIFOs exceeds the maximum depth for the controller, or when the controller runs out of system memory. You may be able to reconfigure the controller with a greater maximum FIFO depth. For more information, refer to the NI KnowledgeBase article 65OF2ERQ.
+</nierror>
+<nierror code="-63002">
+NI-RIO:  (Hex 0xFFFF09E6) The specified DMA FIFO depth is greater than the maximum size supported by this system.
+</nierror>
+<nierror code="-63001">
+NI-RIO:  (Hex 0xFFFF09E7) DMA from host to FPGA target is not supported for this remote system. Use another method for I/O or change the controller associated with the FPGA target.
+</nierror>
+<nierror code="63033">
+NI-RIO:  (Hex 0xF639) Access to the remote system was denied. If you are trying to connect to an RT target, use MAX to check the Remote Device Access settings under Software>>NI-RIO>>NI-RIO Settings on the remote system. If you are trying to connect to a desktop Linux target, check the settings in /etc/natinst/nirio/nirio.ini on the Linux target.
+</nierror>
+<nierror code="63073">
+NI-RIO:  (Hex 0xF661) The specified event did not occur within the specified time period, in milliseconds.
+</nierror>
+<nierror code="63186">
+NI-RIO:  (Hex 0xF6D2) The number of open RIO sessions exceeds the recommended limit. For optimal performance, close RIO sessions when you no longer need them.
+</nierror>
+<nierror code="63188">
+NI-RIO:  (Hex 0xF6D4) The operation is no longer supported.
+</nierror>
+<nierror code="63194">
+NI-RIO:  (Hex 0xF6DA) The target software is older than, but compatible with, the host. Upgrade target software to get full functionality.
+</nierror>
+</nidocument>

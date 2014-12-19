@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>WebServerConfigExtension</Directory>
+  <Control ControlPath="WebServerConfigExtension.xap" EntryPoint="WebServerConfigExtensionPage.dyn.xaml">WebServerConfigExtension</Control>
+  <Icon>Images/WebServerConfigExtensionIcon.png</Icon>
+  <Help>Help/WebServerConfigExtensionHelp.htm</Help>
+  <ACL>
+    <RequiredPermissions>
+      <Permission>WIFConfigureAppServer</Permission>
+    </RequiredPermissions>
+  </ACL>
+</Extension>

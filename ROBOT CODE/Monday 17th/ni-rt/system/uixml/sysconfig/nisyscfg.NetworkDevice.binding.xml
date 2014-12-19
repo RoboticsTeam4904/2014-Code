@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <and>
+    <!-- sysattr=ItemIsDevice -->
+    <eq sysattr="16781312" value="true" />
+    <!-- sysattr=ConnectsToBusType value=TcpIp -->
+    <eq sysattr="16785408" value="6" />
+  </and>
+</binding>

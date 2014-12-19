@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="intcal" caption="{selfcalibration}" order="101"  weight="0">
+    <property id="lastcal" caption="{lastcalibrated}" sysattr="16846848"  order="100" delayed="true" visible="always" placeholder="{na}"  />
+    <property id="temperature" caption="{caltemperature}" sysattr="16850944" order="200" delayed="true" visible="always" placeholder="{na}" >
+      <numberformat units="{degC}" precision="1" />
+    </property>
+    <command id="selfcal" caption="{selfcalcommand}" />
+  </group>
+</item>

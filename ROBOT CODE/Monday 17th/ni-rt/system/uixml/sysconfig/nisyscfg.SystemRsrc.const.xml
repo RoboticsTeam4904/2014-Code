@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="systemres">System Resources</str>
+	<str name="totalmem">Total Physical Memory</str>
+	<str name="freemem">Free Physical Memory</str>
+	<str name="totalvirt">Total Virtual Memory</str>
+	<str name="freevirt">Free Virtual Memory</str>
+	<str name="largestblock">Largest Available Memory Block</str>
+	<str name="totaldisk">Primary Disk Capacity</str>
+	<str name="freedisk">Primary Disk Free Space</str>
+	<str name="value-error">Error</str>
+	<str name="cputotal">CPU Total Load</str>
+	<str name="cpuintr">CPU Interrupt Load</str>
+</uistrings>

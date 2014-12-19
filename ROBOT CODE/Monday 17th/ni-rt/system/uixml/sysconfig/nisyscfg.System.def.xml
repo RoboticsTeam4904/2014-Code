@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<group id="settings" caption="{systemsettings}" order="0" weight="200">
+		<property id="name" caption="{hostname}" sysattr="16904192" sysexpert="NetworkConfig" writable="true" order="0" weight="100"/>
+		<property id="scs_ipaddr" caption="{ipaddress}" sysattr="0" order="1000"/>
+		<property id="fulldns" caption="{dnsname}" sysattr="219234304" delayed="true" order="2000"/>
+		<property id="os" caption="{os}" sysattr="17104896" order="14000"/>
+		<property id="scs_status" caption="{status}" sysattr="0" order="30000"/>
+		<property id="shutdown" caption="{shutdown}" sysattr="17039360" order="32000" delayed="true" undefinedif="0">
+			<map value="1" caption="{shutdown-unexpected}"/>
+			<map value="2" caption="{shutdown-temperature}"/>
+		</property>
+		<property id="boottime" caption="{boottime}" sysattr="17108992" order="32500"/>
+		<property id="imagetitle" caption="{imagetitle}" order="33000" sysattr="219525120" undefinedif=""/>
+		<property id="imageversion" caption="{imageversion}" order="33500" sysattr="219529216" undefinedif=""/>
+		<property id="comments" caption="{comments}" sysattr="17027072" writable="true" order="40000">
+			<strlenrange maxlength="64"/>
+			<multilinestring/>
+		</property>
+		<property id="locale" caption="{locale}" sysattr="219271168" writable="true" order="41000">
+			<stringlistoptions sysattr="219275264" separator=","/>
+			<map value="de" caption="{de}"/>
+			<map value="en" caption="{en}"/>
+			<map value="fr" caption="{fr}"/>
+			<map value="ko" caption="{ko}"/>
+			<map value="ja" caption="{ja}"/>
+			<map value="zh-Hans" caption="{zh-CN}"/>
+		</property>
+		<property id="haltonip" caption="{haltonip}" sysattr="219156480" writable="true" order="42000"/>
+	</group>
+	<group id="startupsettings" caption="{startupsettings}" order="25" weight="100">
+		<property id="safemode" caption="{safemode}" sysattr="219537408" order="100" />
+		<property id="consoleout" caption="{consoleout}" sysattr="219541504" order="200" />
+		<property id="ipreset" caption="{ipreset}" sysattr="219545600" order="300" />
+	</group>
+</item>

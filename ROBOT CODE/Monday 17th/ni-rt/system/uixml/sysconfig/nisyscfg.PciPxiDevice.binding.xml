@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <and>
+    <!-- sysattr=ItemIsDevice -->
+    <eq sysattr="16781312" value="true" />
+    <!-- sysattr=ConnectsToBusType value=PciPxi -->
+    <eq sysattr="16785408" value="1" />
+    <not>
+      <and>
+        <!-- sysattr=PciPxiBus -->
+        <eq sysattr="16875520" value="0" />
+        <!-- sysattr=PciPxiDevice -->
+        <eq sysattr="16879616" value="0" />
+      </and>
+    </not>
+  </and>
+</binding>

@@ -1,0 +1,18 @@
+.collapsed, .expanded {
+  list-style-image: none;
+  list-style-type: none; 
+  padding-left: 5px;
+}
+.expandable_img {
+ 
+  cursor: pointer;  
+  min-width: 10px;
+  position: relative;
+  right: 5px;  
+}
+.item {
+  list-style-image: none;
+  list-style-type: none;
+  padding-left: 5px;
+  margin-left: 10px;
+}

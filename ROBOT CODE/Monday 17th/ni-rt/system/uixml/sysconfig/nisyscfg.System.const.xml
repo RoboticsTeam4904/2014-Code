@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="systemsettings">System Settings</str>
+	<str name="hostname">Hostname</str>
+	<str name="ipaddress">IP Address</str>
+	<str name="dnsname">DNS Name</str>
+	<str name="os">Operating System</str>
+	<str name="status">Status</str>
+	<str name="comments">Comments</str>
+	<str name="description">Description</str>
+	<str name="locale">Locale</str>
+	<str name="de">German</str>
+	<str name="en">English</str>
+	<str name="fr">French</str>
+	<str name="ja">Japanese</str>
+	<str name="ko">Korean</str>
+	<str name="zh-CN">Simplified Chinese (P.R.C.)</str>
+	<str name="haltonip">Halt on IP failure</str>
+	<str name="startupsettings">Startup Settings</str>
+	<str name="safemode">Safe Mode</str>
+	<str name="consoleout">Console Out</str>
+	<str name="ipreset">IP Reset</str>
+	<str name="shutdown">Last Shutdown</str>
+	<str name="shutdown-unexpected">The system experienced an unexpected shutdown.</str>
+	<str name="shutdown-temperature">The system temperature exceeded the operating range.</str>
+	<str name="boottime">System Start Time</str>
+	<str name="allowremotesystemconfig">System Configuration Web Access</str>
+	<str name="localonly">Local Only</str>
+	<str name="allowremote">Local and Remote</str>
+	<str name="imagetitle">Image Title</str>
+	<str name="imageversion">Image Version</str>
+</uistrings>

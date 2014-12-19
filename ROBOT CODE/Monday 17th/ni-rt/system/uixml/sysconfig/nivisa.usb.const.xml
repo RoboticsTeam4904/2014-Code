@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="usbinterface">USB Interface Number</str>
+  <str name="compliant4882">Is 488.2 Compliant</str>
+</uistrings>

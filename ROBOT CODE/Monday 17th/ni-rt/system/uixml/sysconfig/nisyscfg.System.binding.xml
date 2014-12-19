@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <!-- sysattr=ServiceType0 -->
+  <!-- count=NumberOfServices -->
+  <!-- value="mxSysServiceType_LocalSystem" -->
+  <eq sysattr="17014784" count="17010688" value="4" />
+</binding>

@@ -1,0 +1,481 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI Platform Services" displayname="NI Platform Services">
+</nifamily>
+</nicomment>
+<nierror code="-50808">
+NI Platform Services:  A USB transfer failed due to a transaction error reported by the USB host controller.  This may be due to a fault in the system's USB host controller, a USB cable, or a USB device.
+</nierror>
+<nierror code="-50807">
+NI Platform Services:  Applicable to a 1394 bus.  An isochronous buffer descriptor was not found or a link driver stream failed to be connected or disconnected.
+</nierror>
+<nierror code="-50806">
+NI Platform Services:  Applicable to TCP Connections.  Applicable to UDP/TCP Connections. An invalid address was used (i.e. sending to address 0). Note: The TCP stack prohibits connecting to the loopback address from a non-loopback address.
+</nierror>
+<nierror code="-50805">
+NI Platform Services:  Applicable to TCP Connections. This is a more specific version of kPALStatusConnectionRefused. The stream has already been opened at the same address and port.
+</nierror>
+<nierror code="-50804">
+NI Platform Services:  Applicable to TCP Connections.  The stream/device was setup incorrectly (i.e. invalid buffer size etc.) or the device is no longer in a good state.
+</nierror>
+<nierror code="-50803">
+NI Platform Services:  Applicable to TCP Connections.  The connection was aborted by the remote peer.
+</nierror>
+<nierror code="-50802">
+NI Platform Services:  Applicable to TCP Connections.  A surprise removal of the underlying device occurred and/or the connection was aborted.
+</nierror>
+<nierror code="-50801">
+NI Platform Services:  Unable to connect to remote host.  Please check that all network segments between this host and the remote host are working and that the remote host is ready to accept connections.
+</nierror>
+<nierror code="-50800">
+NI Platform Services:  Applicable to a 1394 bus.  The generation count on the packet submitted is incorrect and the entire transfer failed.
+</nierror>
+<nierror code="-50700">
+NI Platform Services:  The wait function was interrupted by an internal or external source and has returned.  The operation has not been completed as specified, and subsequent waits may also not complete.
+</nierror>
+<nierror code="-50651">
+NI Platform Services:  No messages could be read because the message queue is empty. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50650">
+NI Platform Services:  The message could not be written because the message queue is full. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50604">
+NI Platform Services:  The specified thread could not be joined because the thread has already exited or has been terminated. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50603">
+NI Platform Services:  The specified stack size is not supported. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50602">
+NI Platform Services:  The wrong instance of iThreadController was used while attempting to join to a thread. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50601">
+NI Platform Services:  An internal thread data structure has been corrupted. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50600">
+NI Platform Services:  The specified thread is not runnable. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50551">
+NI Platform Services:  The thread that acquired the synchronization object has exited or has been terminated. This error applies to mutex-like synchronization objects, where the thread that acquires the synchronization object owns it until the thread releases it. The resource that the synchronization object protects may be in an unknown state.
+</nierror>
+<nierror code="-50550">
+NI Platform Services:  A synchronization object was not acquired within the time limit. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50503">
+NI Platform Services:  The Receiver Socket is invalid. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50502">
+NI Platform Services:  The Socket Listener specified is invalid. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50501">
+NI Platform Services:  The Socket Listener is already registered. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50500">
+NI Platform Services:  The dispatch function has already been exported.
+</nierror>
+<nierror code="-50450">
+NI Platform Services:  A DMA link event was missed - probably because the interrupt was not serviced in time. The data being moved is incomplete as a result. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50413">
+NI Platform Services:  A transfer was aborted because of a hardware error on the bus on which the transfer was occurring.
+</nierror>
+<nierror code="-50412">
+NI Platform Services:  A transfer was aborted because it could not be completed within the maximum number of retry attempts allowed by the bus on which the transfer was occurring.
+</nierror>
+<nierror code="-50411">
+NI Platform Services:  There was no more data in the buffer when new data was being read. The data returned by the operation is stale as a result.
+</nierror>
+<nierror code="-50410">
+NI Platform Services:  There was no more space in the buffer when new data was written. The oldest unread data in the buffer was lost as a result.
+</nierror>
+<nierror code="-50409">
+NI Platform Services:  A hardware buffer has overflowed.
+</nierror>
+<nierror code="-50408">
+NI Platform Services:  A hardware buffer has underflowed.
+</nierror>
+<nierror code="-50407">
+NI Platform Services:  There is no more space in the buffer.
+</nierror>
+<nierror code="-50406">
+NI Platform Services:  There is no more data in the buffer
+</nierror>
+<nierror code="-50405">
+NI Platform Services:  No transfer is in progress because the transfer was aborted by the client. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50404">
+NI Platform Services:  No transfer is in progress because the transfer was halted by the system. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50403">
+NI Platform Services:  A transfer is already in progress. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50402">
+NI Platform Services:  No transfer is in progress because no transfer was initiated. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50401">
+NI Platform Services:  An unknown or unexpected communication fault occurred while attempting to read data from or write data to a device.
+</nierror>
+<nierror code="-50400">
+NI Platform Services:  The transfer did not complete within the timeout period or within the specified number of retries.
+</nierror>
+<nierror code="-50355">
+NI Platform Services:  The Memory Manager detected that one or more allocated chunks were not freed. The operation was completed but the state of the system may be unreliable.
+</nierror>
+<nierror code="-50354">
+NI Platform Services:  The Memory Manager detected corruption in its internal data structures. The state of the system may be unreliable.
+</nierror>
+<nierror code="-50353">
+NI Platform Services:  One or more memory pages in the specified logical buffer could not be locked into physical memory. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50352">
+NI Platform Services:  The requested memory could not be allocated.
+</nierror>
+<nierror code="-50351">
+NI Platform Services:  The specified buffer is aligned to an address boundary that prevents moving data to or from the specified device. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50350">
+NI Platform Services:  A memory configuration problem is interfering with a background transfer mechanism. This could mean that a buffer failed to be allocated or that a buffer was allocated but is not in the address range of the targeted bus master. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50303">
+NI Platform Services:  The specified device could not be initialized. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50302">
+NI Platform Services:  The specified device is managed by this software stack but a resource or some other sort of functionality associated with the device is not currently supported by this software stack. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50301">
+NI Platform Services:  The specified device is not managed by this software stack. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50300">
+NI Platform Services:  The specified device is not present or is deactivated. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50265">
+NI Platform Services:  The specified feature is implemented but has been disabled in the current environment. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50264">
+NI Platform Services:  The specified software component is busy or still in use. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50263">
+NI Platform Services:  The specified software component has already been installed. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50262">
+NI Platform Services:  The specified software component cannot be unloaded. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50261">
+NI Platform Services:  The specified software component is not currently loaded. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50260">
+NI Platform Services:  The specified software component has already been loaded. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50259">
+NI Platform Services:  The specified software component has circular dependency. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50258">
+NI Platform Services:  The specified software component failed to initialize. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50257">
+NI Platform Services:  The specified software component could not be loaded because its image is corrupt. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50256">
+NI Platform Services:  The specified feature has not been implemented for this environment. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50255">
+NI Platform Services:  A function imported from another library could not be found. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50254">
+NI Platform Services:  The specified function is no longer supported. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50253">
+NI Platform Services:  The specified software component is not backward compatible with the client that was attempting to load it. The client was not loaded.
+</nierror>
+<nierror code="-50252">
+NI Platform Services:  The specified software component is not forward compatible with the client that was attempting to load it. The client was not loaded.
+</nierror>
+<nierror code="-50251">
+NI Platform Services:  The specified software component is not available. The component was not loaded.
+</nierror>
+<nierror code="-50250">
+NI Platform Services:  Two or more components of the package being loaded are unable to operate together due to a version mismatch. A failure of this sort is generally indicative of an installation problem. The package was not loaded.
+</nierror>
+<nierror code="-50209">
+NI Platform Services:  An undetermined failure occurred while operating on the specified file. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50208">
+NI Platform Services:  A failure occurred while attempting to write a buffer to the specified file. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50207">
+NI Platform Services:  A failure occurred while attempting to read a buffer from the specified file. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50206">
+NI Platform Services:  The specified offset in the specified file could not be found. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50205">
+NI Platform Services:  The specified file could not be closed. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50204">
+NI Platform Services:  The specified file could not be opened. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50203">
+NI Platform Services:  There is no more space on the targeted disk. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50202">
+NI Platform Services:  A system call returned an error. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50201">
+NI Platform Services:  A system call returned an error while NI Platform Services was launching. The NI Platform Services launch could not be completed.
+</nierror>
+<nierror code="-50200">
+NI Platform Services:  This function has not been implemented for this operating system. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50175">
+NI Platform Services:  The specified mathematical operation results in an overflow.
+</nierror>
+<nierror code="-50152">
+NI Platform Services:  A hardware failure has occurred. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50151">
+NI Platform Services:  The firmware - which is software resident on a device - has entered an unknown state usually as a result of a cascade failure induced by an unexpected series of state inputs. The operation could not be completed as specified, and you should immediately terminate all further transactions if you are able to do so.
+</nierror>
+<nierror code="-50150">
+NI Platform Services:  The software has entered an unknown state - usually as a result of a cascade failure induced by an unexpected series of state inputs. The operation could not be completed as specified and you should immediately terminate all further transactions if you are able to do so.
+</nierror>
+<nierror code="-50108">
+NI Platform Services:  The message-transport queue for the implied arena is full. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50107">
+NI Platform Services:  The specified resource is ambiguous or a unique resource could not be determined based on the qualifying attributes. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50106">
+NI Platform Services:  The resource is in use. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50105">
+NI Platform Services:  The resource was already initialized and cannot be initialized again. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50104">
+NI Platform Services:  The specified resource has not been initialized. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50103">
+NI Platform Services:  The specified resource is reserved. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50102">
+NI Platform Services:  The specified resource is not reserved. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50101">
+NI Platform Services:  The requested resource does not exist or exists but is in a state which prevents its reservation. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50100">
+NI Platform Services:  The resource is controlled by the OS or a related system and should not be manipulated directly. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50020">
+NI Platform Services:  The specified token is not valid. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50019">
+NI Platform Services:  The specified multitasking mode is invalid. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50018">
+NI Platform Services:  The library specifier is invalid. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50017">
+NI Platform Services:   The specified address space is not a valid address space. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50016">
+NI Platform Services:  The specified window type is not valid or is inappropriate in the context of the current device configuration. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50015">
+NI Platform Services:  The specified address class is not valid in the context of the current device configuration. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50014">
+NI Platform Services:  The specified count is too small or large or of the wrong granularity for write operations. In cases where an offset is also specified the maximum count may be derived from the offset. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50013">
+NI Platform Services:  The specified offset is out of range for write operations. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50012">
+NI Platform Services:  The specified mode is not supported for write operations. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50011">
+NI Platform Services:  The specified count is too small or large or of the wrong granularity for read operations. In cases where an offset is also specified the maximum count may be derived from the offset. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50010">
+NI Platform Services:  The specified offset is out of range for read operations. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50009">
+NI Platform Services:  The specified mode is not supported for read operations. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50008">
+NI Platform Services:   The specified count is too small or large or of the wrong granularity. In cases where an offset is also specified the maximum count may be derived from the offset. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50007">
+NI Platform Services:  The specified offset is out of range. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50006">
+NI Platform Services:  The specified mode is not supported. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50005">
+NI Platform Services:  The specified data width is not supported or cannot be transferred on the bus. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50004">
+NI Platform Services:  A pointer-type parameter is invalid. This may mean that the pointer is NULL when it should not be or not NULL when it should be or is not NULL but does not appear to point to the appropriate type of object or data. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50003">
+NI Platform Services:  A selector - usually of an enumerated type - is inappropriate or out of range. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50002">
+NI Platform Services:  The specified device is not a valid device. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50001">
+NI Platform Services:  An attribute whether explicit or implicit is not relevant or is not relevant given the current system state. The operation could not be completed as specified.
+</nierror>
+<nierror code="-50000">
+NI Platform Services:  The value of one of the specified parameters conflicts with the state or the value of another parameter. The operation could not be completed as specified.
+</nierror>
+<nierror code="50000">
+NI Platform Services:  The value of one of the specified parameters conflicts with the state or the value of another parameter. The operation was completed by ignoring or overriding the conflicting parameters.
+</nierror>
+<nierror code="50001">
+NI Platform Services:  An attribute, whether explicit or implicit, is not relevant or is not relevant given the current system state. The operation was completed by ignoring or overriding the attribute in question.
+</nierror>
+<nierror code="50002">
+NI Platform Services:  The specified device is not a valid device. The operation was completed by ignoring or overriding the device parameter.
+</nierror>
+<nierror code="50003">
+NI Platform Services:  A selector, usually of an enumerated type, is inappropriate or out of range. The operation was completed by ignoring or overriding the selector.
+</nierror>
+<nierror code="50004">
+NI Platform Services:  A pointer-type parameter is invalid. This may mean that the pointer is NULL when it should not be, or not NULL when it should be, or is not NULL but does not appear to point to the appropriate type of object or data. The operation was completed by ignoring or overriding the pointer.
+</nierror>
+<nierror code="50005">
+NI Platform Services:  The specified data width is not supported or cannot be transferred on the bus. The operation was completed by ignoring or overriding the specified data width.
+</nierror>
+<nierror code="50006">
+NI Platform Services:  The specified mode is not supported. The operation was completed by ignoring or overriding the mode.
+</nierror>
+<nierror code="50007">
+NI Platform Services:  The specified offset is out of range. The operation was completed by ignoring or overriding the offset.
+</nierror>
+<nierror code="50008">
+NI Platform Services:   The specified count is too small, too large, or of the wrong granularity. In cases where an offset is also specified, the maximum count may be derived from the offset. The operation was completed by ignoring or overriding the count.
+</nierror>
+<nierror code="50009">
+NI Platform Services:  The specified mode is not supported for read operations. The operation was completed by ignoring or overriding the mode.
+</nierror>
+<nierror code="50010">
+NI Platform Services:  The specified offset is out of range for read operations. The operation was completed by ignoring or overriding the offset.
+</nierror>
+<nierror code="50011">
+NI Platform Services:  The specified count is too small, too large, or of the wrong granularity for read operations. In cases where an offset is also specified, the maximum count may be derived from the offset. The operation was completed by ignoring or overriding the count.
+</nierror>
+<nierror code="50012">
+NI Platform Services:  The specified mode is not supported for write operations. The operation was completed by ignoring or overriding the mode.,
+</nierror>
+<nierror code="50013">
+NI Platform Services:  The specified offset is out of range for write operations. The operation was completed by ignoring or overriding the offset.
+</nierror>
+<nierror code="50014">
+NI Platform Services:  The specified count is too small, too large, or of the wrong granularity for write operations. In cases where an offset is also specified, the maximum count may be derived from the offset. The operation was completed by ignoring or overriding the count.
+</nierror>
+<nierror code="50015">
+NI Platform Services:  The specified address class is not valid in the context of the current device configuration. The operation was completed by ignoring or overriding the address class.
+</nierror>
+<nierror code="50016">
+NI Platform Services:  The specified window type is not valid, or is inappropriate in the context of the current device configuration. The operation was completed by ignoring or overriding the window type.
+</nierror>
+<nierror code="50019">
+NI Platform Services:  The specified multitasking mode is invalid. The operation was completed by ignoring or overriding the multitasking mode.
+</nierror>
+<nierror code="50100">
+NI Platform Services:  The resource is controlled by the OS or a related system and should not be manipulated directly. The operation was completed but the state of the system may be unreliable.
+</nierror>
+<nierror code="50101">
+NI Platform Services:  The requested resource does not exist, or exists but is in a state which prevents its reservation. The operation was completed by reserving a functional subset of the requested resource.
+</nierror>
+<nierror code="50102">
+NI Platform Services:  The specified resource is not reserved. The operation was completed by reserving the resource or by ignoring or overriding the specified resource.
+</nierror>
+<nierror code="50103">
+NI Platform Services:  The specified resource is reserved. The operation was completed by ignoring or overriding the specified resource.
+</nierror>
+<nierror code="50104">
+NI Platform Services:  The specified resource has not been initialized. The operation was completed by initializing the resource on your behalf.
+</nierror>
+<nierror code="50105">
+NI Platform Services:  The resource was already initialized. The operation was completed by initializing the resource again which may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50106">
+NI Platform Services:  The resource is in use. The operation was partially completed which may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50107">
+NI Platform Services:  The specified resource is ambiguous or a unique resource could not be determined based on the qualifying attributes. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50151">
+NI Platform Services:  The firmware, which is software resident on a device, has entered an unknown state, usually as a result of a cascade failure induced by an unexpected series of state inputs. The operation was completed by disabling the firmware thus restoring the intrinsic behavior of the device.
+</nierror>
+<nierror code="50152">
+NI Platform Services:  A hardware failure has occurred. The operation was completed by using alternative hardware.
+</nierror>
+<nierror code="50200">
+NI Platform Services:  This function is not relevant for this operating system. No operation was performed.
+</nierror>
+<nierror code="50202">
+NI Platform Services:  A system call returned a warning. The operation was completed but the state of the system may be unreliable.
+</nierror>
+<nierror code="50254">
+NI Platform Services:  The specified function has been deprecated. The operation was completed but you should update your source code as soon as it is practical to do so.
+</nierror>
+<nierror code="50255">
+NI Platform Services:  A function imported from another library could not be found. The operation was completed through alternate means.
+</nierror>
+<nierror code="50256">
+NI Platform Services:  The specified feature may not operate as expected in this environment. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50258">
+NI Platform Services:  The specified software component initialized but returned a warning. The operation was completed but the state of the system may be unreliable.
+</nierror>
+<nierror code="50260">
+NI Platform Services:  The specified software component has already been loaded.
+</nierror>
+<nierror code="50262">
+NI Platform Services:  The specified software component cannot be unloaded. The operation was completed through alternate means.
+</nierror>
+<nierror code="50351">
+NI Platform Services:  The specified buffer is aligned to an address boundary that prevents moving data to or from the specified device in an efficient manner. The operation was completed by using a smaller data width.
+</nierror>
+<nierror code="50355">
+NI Platform Services:  The Memory Manager detected that one or more allocated chunks were not freed. The operation was completed but the state of the system may be unreliable.
+</nierror>
+<nierror code="50402">
+NI Platform Services:  No transfer is in progress because no transfer was initiated. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50403">
+NI Platform Services:  A transfer is already in progress. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50404">
+NI Platform Services:  No transfer is in progress because the transfer was halted by the system. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50405">
+NI Platform Services:  No transfer is in progress because the transfer was aborted by the client. The operation was completed but doing so may have invalidated the state of your system as you understand it.
+</nierror>
+<nierror code="50406">
+NI Platform Services:  There is no more data in the buffer.
+</nierror>
+<nierror code="50407">
+NI Platform Services:  There is no more space in the buffer.
+</nierror>
+<nierror code="50408">
+NI Platform Services:  A hardware buffer has underflowed.
+</nierror>
+<nierror code="50409">
+NI Platform Services:  A hardware buffer has overflowed.
+</nierror>
+<nierror code="50410">
+NI Platform Services:  There was no more space in the buffer when new data was written. The oldest unread data in the buffer was lost as a result.
+</nierror>
+<nierror code="50411">
+NI Platform Services:  There was no more data in the buffer when new data was being read. The data returned by the operation is stale as a result.
+</nierror>
+<nierror code="50500">
+NI Platform Services:  The dispatch function has already been exported.
+</nierror>
+<nierror code="50551">
+NI Platform Services:  The thread that acquired the synchronization object has exited or has been terminated.
+</nierror>
+</nidocument>

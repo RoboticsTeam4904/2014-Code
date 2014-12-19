@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" caption="{settings}" order="0" weight="100">
+    <property id="name" caption="{name}" sysattr="16904192" order="0" />
+    <property id="vendor" caption="{vendor}" sysattr="16793600" order="10000" undefinedif="" />
+    <property id="model" caption="{model}" sysattr="16801792" order="11000" undefinedif="" />
+    <property id="serial" caption="{serialnumber}" sysattr="16805888" order="12000" undefinedif="" />
+    <property id="firmware" caption="{firmware}" sysattr="16969728" order="13000" undefinedif="" delayed="true" />
+    <property id="slot" caption="{slotnumber}" sysattr="16822272" order="21000" undefinedif="-1" />
+    <property id="scs_status" caption="{status}" sysattr="0" order="30000" />
+    <property id="temperature" caption="{currenttemp}" sysattr="16965632" order="31000" delayed="true">
+      <numberformat units="{degC}" precision="1" />
+    </property>
+  </group>
+</item>

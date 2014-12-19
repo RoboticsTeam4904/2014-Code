@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>WebServicesManagement</Directory>
+  <Control ControlPath="WebServicesManagement.xap" EntryPoint="WebServicesManagementPage.dyn.xaml">WebServicesManagement</Control>
+  <Icon>Images/WebServicesManagementIcon.png</Icon>
+  <Help>Help/WebServicesManagementHelp.htm</Help>
+  <ACL />
+</Extension>

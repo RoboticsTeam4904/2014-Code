@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/xml</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.0</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Software Management</value>
+    <comment>The display name of the installed software extension</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>View and manage the software installed on this target.</value>
+    <comment>The description of the installed software extension</comment>
+  </data>
+</root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="selfcalibration">Self-Calibration</str>
+  <str name="lastcalibrated">Last Calibrated</str>
+  <str name="caltemperature">Temperature</str>
+  <str name="selfcalcommand">Self-Calibrate</str>
+  <str name="na">N/A</str>
+  <str name="degC">°C</str>
+</uistrings>

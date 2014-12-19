@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" weight="0">
+    <property id="visaresource" caption="{visaresource}" sysattr="16896000" sysexpert="ni-visa" order="50000" />
+  </group>
+</item>

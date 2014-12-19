@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Extension Version="1.0">
+	<DisplayInfo Path="DisplayInfo.xml"/>
+	<Directory>NIAuth</Directory>
+	<Control ControlPath="WIFNIAuth.xap" EntryPoint="WIFNIAuthPage.dyn.xaml">WIFNIAuth</Control>
+	<Icon>Images/WIFNIAuthIcon.png</Icon>
+	<!-- TODO: Create help file and put at location below-->
+	<Help>Help/WIFNIAuthHelp.htm</Help>
+	<ACL>
+		<RequiredPermissions />
+	</ACL>
+</Extension>

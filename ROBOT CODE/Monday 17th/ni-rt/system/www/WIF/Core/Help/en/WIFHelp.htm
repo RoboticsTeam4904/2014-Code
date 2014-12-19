@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>System Settings Page</title>
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body>
+<h1>System Settings Page</h1>
+
+<p class="body">Use this page to view and set system settings, such as a host name and comments, on a remote device. You can restrict who has access to view the settings on this page using the <strong>GetSystemConfiguration</strong> permission on the <strong>Security Configuration</strong> page.</p>
+
+
+<table class="Borderless">
+<tr>
+<td class="button"><img src="../../../Help/note.gif"></td>
+<td><strong>Notes</strong>
+<ul>
+<li>Targets running LabVIEW Real-Time 2010 or later use a user name/password method of protecting system configuration. By default, each remote device includes a single user with the following name and password:<br><br>
+<strong>User name</strong>&#8212;<span class="Monospace">admin</span><br>
+<strong>Password</strong>&#8212;<span class="Monospace">&lt;blank&gt;</span>
+</li>
+
+<li>You must install Microsoft Silverlight to use NI Web-Based Monitoring and Configuration. If you have not installed Microsoft Silverlight, NI Web-Based Monitoring and Configuration prompts you to do so.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h2>Configuring General Settings</h2>
+<ol>
+<li>Enter a host name in the <STRONG>Name</STRONG> text box. Choose a name that makes your system easy to identify.
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Your system may already have a name assigned to it. You can keep this name or enter another name.</td>
+</tr>
+</table></li>
+<li>Enter any comments in the <strong>Comments</strong> box.</li>
+<li>Use the <strong>Locale</strong> setting to change the locale of strings returned from the remote target. <strong>Locale</strong> selections include only those locales supported on the target. Not all software supports this setting.</li>
+<li>Enable <strong>Halt on IP Failure</strong> to stop the LabVIEW Real-Time Module if the network connection fails when you boot the remote system. If the system is configured to use DHCP but fails to receive a DHCP address, the system will reboot instead of using a link local address. If you clear the <strong>Halt on IP Failure</strong> checkbox, the LabVIEW Real-Time Module starts and runs startup applications you created, even if TCP/IP fails when you boot the system.</li>
+<li>Check <strong>Protect Restarts</strong> if you want to require users to enter a password before restarting the remote system. This setting is available only on DDP targets.</li>
+<li>Click <strong>Save</strong> to apply your changes or <strong>Revert</strong> to revert to the previous settings.</li>
+</ol>
+
+<p>You can view, but not edit the following items:</p>
+
+<ul>
+<li><strong>IP Address</strong> displays the IP address of the RT target. If this is the first time that you have started the controller, the setting could show a network address, a link-local address (<span class="Monospace">169.254.<em>x</em>.<em>x</em></span>), or <span class="Monospace">0.0.0.0</span>, depending on how your target acquires network addresses.</li>
+<li><strong>Model</strong> displays the model of the target system.</li>
+<li><strong>Serial Number</strong> displays the target system's serial number.</li>
+<li><strong>System State</strong> displays whether the system is running, rebooting, or disconnected.</li>
+<li><strong>DNS Name</strong> displays the fully qualified DNS name (FQDN) for the target.</li>
+</ul>
+
+
+<h2>Viewing Module Information</h2>
+
+<!-- <table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;<strong>Module Information</strong> is displayed for non-RT devices displayed under <strong>My System&raquo;Network Devices</strong> that are also a chassis.</td>
+</tr>
+</table> -->
+
+<p><strong>Module Information</strong> displays a list of devices in a networked chassis, such as a cDAQ chassis, and includes the slot number, model, and serial number of each device. Check <strong>Show empty slots</strong> to display any slots that do not contain a device. This table is not editable.</p>
+
+<h2>Logging In</h2>
+
+<p class="Body">Web-based monitoring and configuration uses a permission-based security model. By default, each remote device includes a single user with the following name and password:</p>
+
+<ul>
+	<li><strong>User name</strong>&#8212;<span class="Monospace">admin</span></li>
+	<li><strong>Password</strong>&#8212;<span class="Monospace">&lt;blank&gt;</span></li>
+</ul>
+
+<p class="Body">After you access the Web-based monitoring and configuration page for a remote device, complete the following steps to log in for the first time.</p>
+
+<ol>
+	<li>Click the <strong>Login</strong> button in the top-right corner of the page.</li>
+	<li>Enter <span class="Monospace">admin</span> in the <strong>User name</strong> field.</li>
+	<li>Leave the <strong>Password</strong> field blank.</li>
+	<li>Click the <strong>OK</strong> button.</li>
+</ol>
+
+<table class="Borderless"><tr><td class="button"><img src="../../../Help/caution.gif" /></td><td class="Dark-Red"><strong>Caution</strong>&nbsp;&nbsp;To secure your remote device, you must change the default administrator password. You also must remove all permissions from the <strong>everyone</strong> group.</td></tr></table>
+
+<h2>Securing a Remote Device</h2>
+
+<p class="Body">Complete the following steps to secure a remote device.</p>
+
+<ol>
+	<li>Change the administrator password.
+		<ol>
+			<li>Click the <strong>Security Configuration</strong> button <img src="../../../Help/noloc_env_wif_security.gif" /> to display the <strong>Security Configuration</strong> page.</li>
+			<li>Double-click <strong>admin</strong> in the list of users under the <strong>Users</strong> tab.</li>
+			<li>Enter a secure password in the <strong>New Password</strong> field.</li>
+			<li>Re-enter your password in the <strong>Re-type New Password</strong> field.</li>
+			<li>Click the <strong>Save</strong> button.</li>
+		</ol>
+	</li>
+	<li>Remove all permissions from the <strong>everyone</strong> group.
+		<ol>
+			<li>Click the <strong>Groups</strong> tab.</li>
+			<li>Double-click the <strong>everyone</strong> group.</li>
+			<li>Remove the checks from all the checkboxes in the <strong>Has Permission?</strong> column.</li>
+			<li>Click the <strong>Save</strong> button.</li>
+			<li>Click the <strong>Upload Changes</strong> button to save the changes on the system.</li>
+		</ol>
+	</li>
+</ol>
+
+<h2>Creating a New User Account</h2>
+
+<p class="Body">Complete the following steps to create a new user account.</p>
+
+<ol>
+	<li>Click the <strong>Security Configuration</strong> button <img src="../../../Help/noloc_env_wif_security.gif" /> to display the <strong>Security Configuration</strong> page.</li>
+	<li>Click the <strong>New User</strong> button to create a new user account.</li>
+	<li>Replace the default user name with your own user name in the <strong>Username</strong> field.</li>
+	<li>Enter a secure password in the <strong>New Password</strong> field.</li>
+	<li>Re-enter your password in the <strong>Re-type New Password</strong> field.</li>
+	<li>(Optional) Enter a description of the new user account in the <strong>Comments</strong> field.</li>
+	<li>Place checkmarks in the checkboxes corresponding to each group you want the new user account to belong to in the <strong>Group(s)</strong> field.</li>
+	<li>Place checkmarks in the checkboxes corresponding to each permission you want the new user account to have in the <strong>Permission(s)</strong> field.</li>
+	<li>Click the <strong>Save</strong> button.</li>
+	<li>Click the <strong>Upload Changes</strong> button to save the changes on the system.</li>
+</ol>
+
+<table class="Borderless"><tr><td class="button"><img src="../../../Help/tip.gif" /></td><td><strong>Tip</strong> To create a safe account for a non-administrator user, enable only the minimum set of permissions required to perform that user's tasks. For a description of each permission, click the <strong>Help</strong> button at the top-right corner of the <strong>Security Configuration</strong> page.</td></tr></table>
+
+</body>
+</html>
+

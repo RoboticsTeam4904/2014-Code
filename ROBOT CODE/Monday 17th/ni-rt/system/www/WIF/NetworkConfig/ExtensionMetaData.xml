@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>NetworkConfig</Directory>
+  <Control ControlPath="NetworkConfig.xap" EntryPoint="Page.dyn.xaml">NationalInstruments.Config.NetworkConfig</Control>
+  <Icon>Images/NetworkConfigIcon.png</Icon>
+  <Help>Help/NetworkConfigHelp.htm</Help>
+  <ACL>
+    <!-- TODO Insert Required Permissions here if needed-->
+    <RequiredPermissions/>
+  </ACL>
+</Extension>

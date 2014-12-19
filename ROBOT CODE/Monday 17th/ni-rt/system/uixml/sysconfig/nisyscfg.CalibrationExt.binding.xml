@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <and>
+    <!-- sysattr=SupportCalAny -->
+    <eq sysattr="16908288" value="true" />
+    <!-- sysattr=CalExtSupport -->
+    <eq sysattr="16859136" value="true" />
+  </and>
+</binding>

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Web Server Configuration Page</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body bgcolor="#ffffff">
+
+<noscript>
+<p class="Body">JavaScript is disabled.</p>
+<hr width="100%" noshade>
+</noscript>
+
+<h1>Web Server Configuration Page</h1>
+
+<p class="Body">Use this page to enable the Application Web Server&mdash;which hosts LabVIEW Web services&mdash;and to enable Secure Sockets Layer (SSL) encryption on the Application and System Web Servers. Refer to the <em>LabVIEW Help</em> for more information about Web services, SSL encryption, and the Application and System Web Servers.</p>
+
+<p class="Body">This page includes the following components:</p>
+
+
+<ul>
+<li><strong>Web Servers</strong>&#8212;Configures the System and Application Web Servers.
+<ul class="List-Hyphen">
+<li><strong>System Web Server</strong>&#8212;Configures the System Web Server, which hosts Web services that support NI software. The System Web Server runs as an independent system service. After you install LabVIEW, the System Web Server launches whenever you boot up the system. 
+<ul class="List-Hyphen">
+<li><strong>HTTP Enabled</strong>&#8212;Enables the network port specified in <strong>HTTP Port</strong>.</li>
+<li><strong>HTTP Port</strong>&#8212;Specifies the unsecured network port for the System Web Server. The default port is <span class="monospace">3582</span> on desktop systems and <span class="monospace">80</span> on remote targets.</li>
+<li><strong>SSL (HTTPS) Enabled</strong>&#8212;Enables the network port specified in <strong>SSL (HTTPS) Port</strong>. To complete the process of enabling secure communication with Web services, disable <strong>HTTP Enabled</strong> and click <strong>Apply</strong>. You can disable the HTTP network port only if SSL Support for LabVIEW RT is installed.</li>
+<li><strong>SSL (HTTPS) Port</strong>&#8212;Specifies the secure network port for the System Web Server. The default port is <span class="monospace">3581</span> on desktop systems and <span class="monospace">443</span> on remote targets.
+<li><strong>Certificate File</strong>&#8212;Specifies the SSL certificate file that encrypts communication on the System Web Server. You can create a new SSL certificate on the <strong>SSL Certificate Management</strong> tab. </li>
+</ul>
+</li>
+<li><strong>Application Web Server</strong>&#8212;Configures the Application Web Server, which hosts user-created LabVIEW Web services. The Application Web Server runs as an independent system service. You can enable and run the Application Web Server without running LabVIEW or the LabVIEW Run-Time Engine on the host system. 
+<ul class="List-Hyphen">
+<li><strong>Enabled</strong>&#8212;Specifies the status of the Application Web Server. Once you enable the Application Web Server, it remains enabled whenever you boot up the system.</li>
+<li><strong>HTTP Enabled</strong>&#8212;Enables the network port for the Application Web Server.</li>
+<li><strong>HTTP Port</strong>&#8212;Specifies the network port for the Application Web Server. The default port is <span class="monospace">8080</span>.</li>
+<li><strong>32 Bit</strong>&#8212;Selects the 32-bit Application Web Server. Select this option when creating Web services with LabVIEW (32-bit).</li>
+<li><strong>64 Bit</strong>&#8212;Selects the 64-bit Application Web Server. Select this option when creating Web services with LabVIEW (64-bit).</li>
+<li><strong>Advanced</strong>&#8212;Displays options to enable SSL encryption for the Application Web Server. Enable SSL on the Application Web Server to protect communication between Web clients and a LabVIEW application published as a Web service.
+<ul class="List-Hyphen">
+<li><strong>Virtual hosts</strong>&#8212;Configures virtual hosts that represent instances of the Application Web Server. You must create a virtual host to enable SSL encryption on the Application Web Server. You can configure each instance with a unique IP address and configuration options. When you publish a Web service to the Application Web Server, the Web service is accessible on all virtual hosts. 
+<ul class="List-Hyphen">
+<li><strong>Virtual host list</strong>&#8212;Displays active virtual hosts.</li>
+<li><strong>Hostname</strong>&#8212;Specifies the name of the virtual host.</li>
+<li><strong>Listen on all interfaces</strong>&#8212;Specifies that the virtual host accepts communication over all IP addresses configured for the Application Web Server. By default, the virtual host accepts communication using the host system's IP address.</li>
+<li><strong>IP</strong>&#8212;Specifies an IP address for the virtual host if you have not enabled <strong>Listen on all interfaces</strong>.</li>
+<li><strong>Port</strong>&#8212;Specifies a network port for the virtual host.</li>
+<li><strong>SSL (HTTPS) Enabled</strong>&#8212;Enables SSL on the virtual host instance of the Application Web Server.</li>
+<li><strong>Certificate File</strong>&#8212;Specifies the SSL certificate file that encrypts communication for the virtual host instance. You can create a new SSL certificate on the <strong>SSL Certificate Management</strong> tab. </li>
+<li><strong>Add a new virtual host</strong>&#8212;Adds a new virtual host to the <strong>Virtual host list</strong>.</li>
+<li><strong>Remove selected virtual host</strong>&#8212;Deletes the selected virtual host from the <strong>Virtual host list</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>SSL Certificate Management</strong>&#8212;Configures SSL certificates on the system. Refer to the <em>LabVIEW Help</em> for information about SSL certificates and certificate signing requests. Before you can configure SSL certificates, you must enable SSL and restart the target.
+<ul>
+<li><strong>Self Signed Certificates</strong>&#8212;Displays the available certificates on the system. SSL encryption uses certificates to establish secure connections between a client and a server. LabVIEW creates a default self-signed certificate when you enable SSL.
+<ul>
+<li><strong>Generate a new self signed certificate</strong>&#8212;Displays the <strong>Create New Certificate</strong> dialog box. Use this dialog box to configure a self-signed certificate.</li>
+<li><strong>Remove certificate</strong>&#8212;Removes the selected certificate from the system.</li>
+<li><strong>Certificate Information</strong>&#8212;Displays the components of the selected certificate.</li>
+</ul>
+</li>
+<li><strong>Open Certificate Signing Requests</strong>&#8212;Displays the available certificate signing requests on the system. Use certificate signing requests to obtain a certificate that is authorized with a digital signature from a  certificate authority (CA), a trusted third-party company that digitally certifies the authenticity of certificates. A network administrator, such as a corporate IT department, might also issue digital signatures.
+<ul>
+<li><strong>Generate a new certificate signing request</strong>&#8212;Displays the <strong>New signing request</strong> dialog box. Use this dialog box to configure a new certificate signing request.</li>
+<li><strong>Remove certificate signing request</strong>&#8212;Removes the selected certificate signing request from the system.</li>
+<li><strong>Install Certificate</strong>&#8212;Specifies a certificate provided by a CA to install on the system. In the <strong>Certificate Signing Request</strong> list, select the certificate signing request you created or a request that already exists and click the <strong>Install Certificate</strong> button.</li>
+<li><strong>Certificate Signing Request Information</strong>&#8212;Displays the components of the selected certificate signing request.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Web Services API Key</strong>&#8212;Configures API key security for the Web server.
+	<ul>
+		<li><strong>Generate New Key</strong>&#8212;Generates a new API key.</li>
+		<li><strong>Reset to Default</strong>&#8212;Resets the API key.</li>
+		<li><strong>Copy to Clipboard</strong>&#8212;Copies the API key to the clipboard.</li>
+		<li><strong>Paste from Clipboard</strong>&#8212;Pastes an API key from the clipboard.</li>
+		<li><strong>Apply</strong>&#8212;Applies the current API key to the Web server.</li>
+		<li><strong>Access ID</strong>&#8212;Displays the access ID portion of the API key.</li>
+		<li><strong>Secret ID</strong>&#8212;Displays the secret ID portion of the API key.</li>
+		<li><strong>Valid Timestamp Window (minutes)</strong>&#8212;Specifies the maximum amount of time you have, after creating a signed HTTP request, to send that request to the Application Web Server. If you create a signed HTTP request and send it after the <strong>Valid TimeStamp Window</strong> has elapsed, the Application Web Server returns <strong><span class="monospace">HTTP error 403 Forbidden</span></strong>. The default is 15 minutes.</li>
+	</ul>
+</li>
+</ul>
+
+<a name="SSLDefinitions"></a><h2>Components of SSL Certificates and Certificate Signing Requests</h2>
+<p class="Body">Certificates and certificate signing requests include a subset of the following components:</p>
+<ul>
+<li><strong>Filename</strong>&#8212;Displays the location of the certificate or certificate signing request on the system.</li>
+<li><strong>Handle number</strong>&#8212;Displays a unique identification number for the certificate or certificate signing request. The system assigns increasing numerical values for the <strong>Handle number</strong>, starting at <span class="monospace">100</span> for the first certificate or certificate signing request created on the system.</li>
+<li><strong>Common name</strong>&#8212;Specifies the common name. Use the DNS name or the IP address of the system displayed in NI Web-based Monitoring and Configuration. Example syntax: <span class="monospace">localhost</span></li>
+<li><strong>Country</strong>&#8212;Specifies the two character country code. Example syntax:<span class="monospace"> US</span></li>
+<li><strong>State or Province</strong>&#8212;Specifies the state or province. Example syntax:<span class="monospace"> Texas</span></li>
+<li><strong>Locality</strong>&#8212;Specifies the locality. Example syntax:<span class="monospace"> Austin</span></li>
+<li><strong>Organization</strong>&#8212;Specifies the organization. Example syntax:<span class="monospace"> National Instruments</span></li>
+<li><strong>Organizational unit</strong>&#8212;Specifies the organizational unit. Example syntax:<span class="monospace"> LabVIEW Web Server</span></li>
+<li><strong>Subject alt name</strong>&#8212;Specifies the subject alt name. You can configure multiple subject alt names. Example syntax:<span class="monospace"> DNS:www1.ni.com</span> or <span class="monospace"> DNS:www1.ni.com,DNS:www2.ni.com/labview</span></li>
+<li><strong>Key usage</strong>&#8212;Displays the functionality of the certificate.</li>
+<li><strong>Serial number</strong>&#8212;Displays a unique serial number for the certificate.</li>
+<li><strong>Valid from</strong>&#8212;Displays the start date of the certificate's validity.</li>
+<li><strong>Valid until</strong>&#8212;Displays the end date of the certificate's validity</li>
+<li><strong>Raw certificate text</strong>&#8212;Displays the certificate file as raw text.</li>
+<li><strong>Raw certificate request</strong>&#8212;Displays the certificate signing request as raw text.</li>
+</ul>
+
+
+
+
+<a name="AppWebServerPermissions"></a><h2>Setting Permissions to Configure the Application Web Server</h2>
+<p class="Body">Complete the following steps to specify which users have permissions to configure the Application Web Server: </p>
+				
+	<ol>
+	<li>Click the <strong>Security Configuration</strong> button to display the <strong>Security Configuration</strong> page. You must have administrator access or the <strong><span class="DNL">SetDB</span></strong> permission to configure security permissions.</li>
+	<li>(Optional) Create a new user.</li>
+	<li>Click a user or group to display the associated configuration options.</li>
+	<li>To allow a user or group to modify the Application Web Server settings, select the <strong>User</strong> or <strong>Group</strong> tab. Locate the <strong>This user/group has the following permissions</strong> field. Use the associated <strong>Add</strong> button and select <strong><span class="DNL">WIFConfigureAppServer</span></strong>.</li>
+	<li>Click the <strong>Save</strong> button.</li>
+	<li>Click the <strong>Refresh</strong> button to save the changes to the system.</li>
+	</ol>
+
+<a name="SSLWebServices"></a><h2>Enabling SSL Security for the Application Web Server</h2>
+<p class="Body">On the <strong>Web Server Configuration</strong> page, complete the following steps to enable SSL encryption for Web services applications hosted on the Application Web Server:</p>
+
+
+<ol>
+<li>In the <strong>Application Web Server</strong> section, place a checkmark in the <strong>Enabled</strong> checkbox.</li>
+<li>Click <strong>Advanced</strong> to display additional configuration options.</li>
+<li>Click the <strong>Add a new virtual host</strong> button to establish an instance of the Application Web Server on which to enable SSL encryption.</li>
+<li>Place a checkmark in the <strong>SSL (HTTPS) Enabled</strong> checkbox to enable SSL encryption for the selected virtual instance.</li>
+<li>Select a certificate file from the <strong>Certificate File</strong> pull-down menu. You can create a new SSL certificate on the <strong>SSL Certificate Management</strong> tab. </li> 
+<li>(Optional) Disable <strong>HTTP Enabled</strong> to ensure secure communication with the Application Web Server.</li>
+<li>Click the <strong>Apply</strong> button in the <strong>Application Web Server</strong> section. You must restart the system for these changes to occur.</li>
+</ol>
+
+<h2>Enabling SSL Security for the System Web Server</h2>
+<p class="Body">If SSL Support for LabVIEW RT is installed, you can complete the following steps to enable SSL encryption for Web services applications hosted on the System Web Server:</p>
+<ol>
+<li>In the <strong>System Web Server</strong> section, select <strong>SSL (HTTPS) Enabled</strong>.</li>
+<li>Specify the <strong>SSL (HTTPS) Port</strong> as <span class="monospace">3581</span>.</li>
+<li>Select a certificate from the<strong> Certificate File</strong> pull-down menu. You can create a new SSL certificate on the <strong>SSL Certificate Management</strong> tab.</li>
+<li>(Optional) Disable <strong>HTTP Enabled</strong> to ensure secure communication with the System Web Server.</li>
+<li>Click <strong>Apply</strong>. You must restart the system for these changes to occur.</li>
+</ol>
+
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<uistrings>
+	<str name="noapp">Disable RT Startup App</str> 
+	<str name="nofpga">Disable FPGA Startup App</str> 
+</uistrings>

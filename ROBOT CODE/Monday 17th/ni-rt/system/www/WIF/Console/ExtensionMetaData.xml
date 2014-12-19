@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>Console</Directory>
+  <Control ControlPath="Console.xap" EntryPoint="ConsolePage.dyn.xaml">NationalInstruments.WIF.Extensions.Console</Control>
+  <!-- TODO: Create icon with this name and put in your Images folder (on the server, not in this project) -->
+  <Icon>Images/ConsoleIcon.png</Icon>
+  <!-- TODO: Create help file and put at location below-->
+  <Help>Help/ConsoleHelp.htm</Help>
+  <ACL>
+    <RequiredPermissions>
+      <Permission>ViewConsoleOutput</Permission>
+    </RequiredPermissions>
+  </ACL>
+</Extension>

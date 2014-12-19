@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" caption="{settings}" order="0" weight="0">
+    <property id="hostname" caption="{hostname}" sysattr="16928768" order="23000" />
+    <property id="scs_ipaddr" caption="{ipaddress}" sysattr="0" order="23100" />
+  </group>
+</item>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+    <title>Console Page</title>
+	<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+	<body>
+		<h1>Console Page</h1>
+		<p class="Body">Use this page to view console output for an RT target. This information can be useful when debugging on an RT target. This page includes the following components:</p>
+		<ul>
+			<li><strong>Console</strong>&#8212;Displays strings written to the standard output device of the real-time operating system (RTOS). The RTOS writes status updates, error messages, and warnings to the console. The console also displays messages sent through the RT Debug String VI or the printf() function.</li>
+			<li><strong>Refresh</strong>&#8212;Refreshes the console display.</li>
+			<li><strong>Automatically refresh</strong>&#8212;Configures the page to refresh the console display once per second.</li>
+			<table class="Borderless">
+				<tr>
+					<td class="button"><img src="../../../Help/note.gif"></td>
+					<td><strong>Note</strong> Placing a checkmark in this checkbox increases CPU overhead on the RT target.</td>
+				</tr>
+			</table>
+			<li><strong>History Size (bytes)</strong>&#8212;Configures the size of the local buffer that stores strings written to the console. The size of this buffer determines the amount of text history you can scroll through on the console display.</li>
+		</ul>
+	</body>
+</html>

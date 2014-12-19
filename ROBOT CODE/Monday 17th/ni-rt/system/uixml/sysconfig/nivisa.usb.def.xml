@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" weight="0">
+    <property id="usbinterface" caption="{usbinterface}" sysattr="16887808" order="45000" />
+    <property id="compliant4882" caption="{compliant4882}" sysattr="67137536" order="46000" />
+  </group>
+</item>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/xml</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.0</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Security Configuration</value>
+    <comment>The display name of the extension</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Use this page to set security permissions for users to monitor and configure the system.</value>
+    <comment>The description of the extension</comment>
+</data>
+</root>

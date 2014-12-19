@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="extcal" caption="{extcalibration}" order="100" weight="0">
+    <property id="lastcal" caption="{lastcalibrated}" sysattr="16863232"  order="100" delayed="true" visible="always" placeholder="{na}" />
+    <property id="nextcal" caption="{recommendednext}" sysattr="16871424" order="200" delayed="true" visible="always" placeholder="{na}" />
+    <property id="temperature" caption="{caltemperature}" sysattr="16867328" order="300" delayed="true" visible="always" placeholder="{na}">
+      <numberformat units="{degC}" precision="1" />
+    </property>
+    <property id="comments" caption="{calcomments}" sysattr="16961536" order="400" delayed="true" visible="always" placeholder="{na}"  />
+  </group>
+</item>

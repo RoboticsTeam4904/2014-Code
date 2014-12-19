@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Date and Time Configuration Page</title>
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body>
+<h1>Date and Time Configuration Page</h1>
+
+<p class="body">Use <strong>Time Settings</strong> to view and set time settings such as the date, current time, time zone, and daylight savings time on your LabVIEW Real-Time target. You can also use this page to set time synchronization sources for your system.</p>
+
+<table>
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;You can restrict who has access to view the settings on this page using the <strong><span class="DNL">GetSystemConfiguration</span></strong> permission on the <strong>Security Configuration</strong> page. 
+</td></tr>
+</table>
+
+<h2>Setting Date and Time</h2>
+<p>Use the <strong>Date and Time</strong> to set the date and time for your LabVIEW Real-Time target.</p>
+
+<ul>
+<li><strong>Date</strong>&mdash;Use the date-picker to set the date on your target.</li>
+<li><strong>Current time</strong>&mdash;Use the up/down arrows to set the time on your target.</li>
+
+<li><strong>Time Zone</strong>&mdash;Use the <strong>Time zone</strong> setting to configure the time zone in which the target resides. You can use this setting with LabVIEW time and date VIs to provide accurate time information, relative to the time zone setting. </li>
+
+<li><strong>Automatically adjust clock for Daylight Saving time</strong>&mdash;Check this box to automatically adjust the target's clock for daylight saving time changes, if the target supports this feature.
+
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;If your target does not support automatic daylight saving time adjustment, select the GMT time equivalent for your location in <strong>Time Zone</strong> instead of the actual time zone. Otherwise, data timestamps may be be inaccurate.</td>
+</tr>
+</table></li>
+
+</ul>
+
+<h2>Setting Time Synchronization</h2>
+<p>Use the <strong>Time Synchronization</strong> section to enable a time synchronization source for your device, if your device or system supports this feature. Refer to your system's documentation for more information.</p>
+
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;You can reorder the sources using the arrow buttons on each time sync source. However, reordering the sources changes their priority. If you set up sources in the following order&ndash;Software 1588, SNTP, RTC&ndash;the controller tries to synchronize the clock using Software 1588 first. If Software 1588 fails, the controller moves to SNTP and finally to RTC.</td>
+</tr>
+</table>
+
+<p>Time synchronization sources supported by NI products include the following:</p>
+
+<ul>
+<li><strong>Software 1588</strong>&mdash;Provides time synchronization to other IEEE 1588-2008 devices using a software-only implementation.</li>
+
+<li><strong>RTC</strong>&mdash;Real-time clock. Enables the current time to be persisted across reboots.</li>
+
+<li><strong>SNTP</strong>&mdash;Simple Network Time Protocol. Synchronizes computer clocks across the Internet.</li>
+
+<li><strong>NI-Sync</strong>&mdash;A driver that allows time synchronization using a device such as the PXI-6682.</li>
+
+<li><strong>EtherCAT</strong>&mdash;EtherCAT network system time.</li>
+
+</ul>
+
+
+
+
+
+</body>
+</html>

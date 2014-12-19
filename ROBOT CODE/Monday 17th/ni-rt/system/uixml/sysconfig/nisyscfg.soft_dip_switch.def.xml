@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<group id="startupsettings">
+		<property id="safemode" sysattr="219537408" writable="true" order="100" weight="100"/>
+		<property id="consoleout" sysattr="219541504" writable="true" order="200" weight="100"/>
+		<property id="ipreset" sysattr="219545600" writable="true" order="300" weight="100"/>
+	</group>
+</item>

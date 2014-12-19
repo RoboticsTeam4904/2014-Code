@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<group id="systemres" caption="{systemres}" order="50" weight="100">
+		<property id="ramtotal" caption="{totalmem}" sysattr="219480064" delayed="true" visible="always" order="100">
+			<byteformat sourceunits="kb"/>
+		</property>
+		<property id="ramfree" caption="{freemem}" sysattr="219484160" delayed="true" visible="always" order="200">
+			<byteformat sourceunits="kb"/>
+			<map value="-1.0" caption="{value-error}"/>
+		</property>
+		<property id="virttotal" caption="{totalvirt}" sysattr="219492352" delayed="true" order="300">
+			<byteformat sourceunits="kb"/>
+		</property>
+		<property id="virtfree" caption="{freevirt}" sysattr="219496448" delayed="true" order="400">
+			<byteformat sourceunits="kb"/>
+			<map value="-1.0" caption="{value-error}"/>
+		</property>
+		<property id="ramlargest" caption="{largestblock}" sysattr="219488256" delayed="true" order="500">
+			<byteformat sourceunits="kb"/>
+		</property>
+		<property id="disktotal" caption="{totaldisk}" sysattr="219291648" delayed="true" visible="always" order="600">
+			<byteformat sourceunits="kb"/>
+		</property>
+		<property id="diskfree" caption="{freedisk}" sysattr="219295744" delayed="true" visible="always" order="700">
+			<byteformat sourceunits="kb"/>
+			<map value="-1.0" caption="{value-error}"/>
+		</property>
+		<arraytable id="cpu" count="17137664" order="800">
+			<property id="cputotal" caption="{cputotal}" sysattr="17141760" delayed="true">
+				<numberformat units="%"/>
+			</property>
+			<property id="cpuintr" caption="{cpuintr}" sysattr="17145856" delayed="true">
+				<numberformat units="%"/>
+			</property>
+		</arraytable>
+	</group>
+</item>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" caption="{settings}" order="0" weight="0">
+    <property id="pcipxibus" caption="{pcibus}" sysattr="16875520" order="22000" />
+    <property id="pcipxidev" caption="{pcidev}" sysattr="16879616" order="22100" />
+    <property id="pcipxifunc" caption="{pcifunc}" sysattr="16883712" order="22200" undefinedif="0" />
+  </group>
+</item>

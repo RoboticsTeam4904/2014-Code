@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <or>
+    <!-- sysattr=ItemIsDevice -->
+    <eq sysattr="16781312" value="true" />
+    <!-- sysattr=ItemIsChassis -->
+    <eq sysattr="16941056" value="true" />
+    <!-- sysattr=ServiceType0 -->
+    <!-- count=NumberOfServices -->
+    <!-- value="mxSysServiceType_LocalSystem" -->
+    <eq sysattr="17014784" count="17010688" value="4" />
+  </or>
+</binding>

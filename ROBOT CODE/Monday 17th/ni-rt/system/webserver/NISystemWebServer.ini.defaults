@@ -1,0 +1,23 @@
+[Server]
+DAVEnabled = false
+
+[Hosts]
+Default = "Default Host"
+DefaultSSL = "SSL"
+
+[Default]
+Enabled = true
+Port = 80
+Address = "*"
+
+[DefaultSSL]
+Port = 443
+Address = "*"
+SSLEnabled = true
+SSLCertificateFile = ""
+SSLCertificateKeyFile = ""
+
+[AllHosts_]
+Enabled = false
+SSLEnabled = false
+

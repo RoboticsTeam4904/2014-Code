@@ -1,0 +1,5 @@
+VendorID,ModuleID,Serial Number,Status,Message
+0x1093,0x71A1,0x0189E493,0,OK.
+0x1093,0x7131,0x018940C5,0,OK.
+0x1093,0x7132,0x018A598C,0,OK.
+0x0000,0x0000,0x00000000,2,Module not installed.  Could be NI 9201 or NI 9403 or NI 9472.

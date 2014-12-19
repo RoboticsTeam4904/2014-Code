@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Network Configuration Page</title>
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body>
+<h1>Network Configuration Page</h1>
+
+<p class="body">Use <strong>Network Configuration</strong> to view and set network settings for your LabVIEW Real-Time target. This page lists all the wireless and Ethernet adapters detected in the system. The first adapter in the list is the default adapter, but it may not be the primary adapter.</p>
+
+<table>
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;You can restrict who has access to view the settings on this page using the <strong><span class="DNL">GetSystemConfiguration</span></strong> permission on the <strong>Security Configuration</strong> page. 
+</td></tr>
+</table>
+<p class="body"><a href="#ethernet">Ethernet Devices</a><br>
+<a href="#wireless">Wireless Devices</a><br>
+<a href="#certificate">Certificate Management</a></p>
+ 
+<a name="ethernet"></a><h2>Ethernet Devices</h2>
+<p class="body">Complete the following steps to configure the network settings of your networked devices:</p>
+
+<table>
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Use caution when attempting to change the Ethernet settings of an RT target. Changing the Ethernet settings of an RT target can affect the network performance of the target.</td></tr>
+</table>
+
+<ol>
+    <li><strong>Adapter Mode</strong>&mdash;Review or enter <strong>Adapter Mode</strong> as appropriate for your device. If the selected device is the primary network device, set <strong>Adapter Mode</strong> to <strong>TCP/IP Network</strong>. The primary device can be used only for TCP/IP (<strong>DHCP or Link Local</strong> or <strong>Static</strong>) or be disabled. For devices other than the primary device or the default device, <strong>Adapter Mode</strong> specifies how the device is used. You can reserve other network devices for application-specific purposes by selecting other modes, such as Time-Triggered and EtherCAT, depending on the adapter modes your device supports. When you reserve a device, you set that device aside for an application that takes control of it at a later time. It is not configured or initialized at boot time like devices set for TCP/IP.</li>
+
+    <li><strong>MAC Address</strong>&mdash;Review the <strong>MAC Address</strong>, a read-only field that displays the media access control (MAC) address, a unique identifier for the selected network adapter. This address is used for identification purposes in MAX. If your target has more than one network adapter, the <strong>MAC Address</strong> may differ from the MAC address of the primary network adapter. The MAC Address ensures that no two devices attempt to transmit data at the same time.</li>
+
+<li>In the <strong>Configure IPv4 Address</strong> drop-down box, select <strong>DHCP or Link Local</strong> to have your remote system acquire an IP address automatically or <strong>Static</strong> to assign your remote system a static IP address.<br><br>
+
+If you select <strong>DHCP or Link Local</strong>, the system requests an IPv4 address from the DHCP server when the system starts up. When it assigns the IP address, the DHCP server can also assign a host name based on a requested host name from your system. If everything is configured correctly, then the DHCP server adds that host name to the DNS tables, and you can now contact this host with its host name using DNS. Because this host name request is part of the DHCP protocol, it works only with DHCP. If you use a static IP address, then you cannot use the host name to contact the remote system from another computer. The host name is just a label in this case.<br><br>
+
+While the DHCP specification allows for a remote system to request a host name from the server, it does not require that the DHCP server grant this request. The DHCP server can:
+<ul>
+<li>Grant the request.</li>
+<li>Ignore the request entirely.</li>
+<li>Alter the host name, such as turning a requested host name of <span class="Monospace">myhost</span> into <span class="Monospace">myhost_dynip123</span>.</li>
+</ul><br>
+
+The DHCP server has no feedback mechanism. The only way to find out the assigned host name is to do a reverse DNS lookup on the IP address of the system. (From a Windows command prompt, type <span class="Monospace">nslookup <span class="Monospace-Italic">&lt;ip address&gt;</span></span>.)<br><br></li>
+
+<li><strong>IPv4 Address</strong>&mdash;Review or enter the IPv4 address you want to assign to the remote system, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. This field is editable only when <strong>IPv4 Address</strong> is <strong>Static</strong>. If the selected device is the primary device, the IP address is the primary IP address of the target.</li>
+
+<li><strong>Subnet Mask</strong>&mdash;Review or enter the subnet mask for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. This field is editable only when <strong>IPv4 Address</strong> is <strong>Static</strong>. If the selected device is the primary device, the subnet mask is the primary subnet mask of the target. This field appears only when <strong>Adapter Mode</strong> of the device is <strong>TCP/IP Network</strong>.</li>
+
+    <li><strong>Gateway</strong>&mdash;Review or enter the gateway for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. Set <strong>Gateway</strong> to the default configuration, <span class="Monospace">0.0.0.0</span>, if your network does not have a gateway. If <strong>IPv4 Address</strong> is <strong>DHCP or Link Local</strong>, this field displays the detected gateway server. This field appears only for a primary device.</li>
+
+    <li><strong>DNS Server</strong>&mdash;Review or enter the DNS server address for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. Set <strong>DNS Server</strong> to the default configuration, <span class="Monospace">0.0.0.0</span>, if your network does not have a DNS server. This field appears only for a primary device.</li>
+
+
+    <li><strong>Preferred Link Speed</strong>&mdash;Select the link speed the device uses to communicate on the wire for devices whose <strong>Adapter Mode</strong> is set to <strong>TCP/IP Network</strong> (including the primary device). The field is displayed only if the device's <strong>Adapter Mode</strong> is <strong>TCP/IP Network</strong> and shows only those options the device supports.
+
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;The remote target does not have to honor this setting. The actual mode used by the remote target may differ.</td>
+</tr>
+</table>
+
+<br><br>
+You can select from the following speed/duplex combinations:<br>
+<table>
+<tr><td><strong>Autonegotiate</strong></td><td>Automatically sets the connection speed and duplex setting of the Ethernet hardware.</td></tr>
+<tr><td><strong>10</strong></td><td>Sets the connection speed of the Ethernet hardware to 10 Mbps.</td></tr>
+<tr><td><strong>100</strong></td><td>Sets the connection speed of the Ethernet hardware to 100 Mbps.</td></tr>
+<tr><td><strong>Gigabit</strong></td><td>Sets the connection speed of the Ethernet hardware to 1,000 Mbps, or 1 gigabit per second (Gbps)</td></tr>
+<tr><td><strong>Half Duplex</strong></td><td>The Real-Time target allows one-way communication through the Ethernet connection and can send data or receive data, but not simultaneously.</td></tr>
+<tr><td><strong>Full Duplex</strong></td><td>The Real-Time target allows two-way communication through the Ethernet connection and can send and receive data simultaneously.</td></tr>
+<tr><td class="Icon"><img src="../../../Help/note.gif"></td><td>
+<strong>Note</strong>&nbsp;&nbsp;Setting the duplex of Real-Time targets from full to half can increase network performance for some targets.</td></tr>
+</table>
+</li>
+
+<li><strong>Make Primary</strong>&mdash;Set the selected network adapter as the primary adapter. If you have more than one Ethernet device on your system, you may need to select which device is the primary Ethernet device. If you select a device other than the first device in your system to be primary, MAX disables the current primary Ethernet adapter. If the first device is not the primary, it cannot be enabled. Click <strong>Yes</strong>, when prompted, to apply the setting and reboot the remote system.
+</li>
+
+
+<li><strong>Packet Detection</strong>&#8212;Select the method the device uses to detect incoming packets for devices whose <strong>Adapter Mode</strong> is set to <strong>TCP/IP Network</strong> (including the primary device). For some targets, both items are enabled regardless of the actual capabilities of the driver. The field is disabled if the device's mode is not <strong>TCP/IP Network</strong>.<br>
+
+<br>You can set the following packet detection settings for a Real-Time target:<br>
+
+<table>
+<tr><td><strong>Interrupt</strong></td><td>The operating system of the Real-Time target waits for an interrupt that signals the arrival of new data through the Ethernet connection. The operating system then retrieves the new data.</td></tr>
+
+<tr><td><strong>Polling</strong></td><td>The operating system of the Real-Time target periodically checks for the arrival of new data through the Ethernet connection. If new data is available, the operating system retrieves the new data. You must set the polling interval if you select <strong>Polling</strong>.</td></tr>
+
+<tr><td><strong>Polling Interval</strong></td><td>For devices that are set to use polling for packet detection, <strong>Polling Interval</strong> specifies how often the driver should check for new packets. Permissible values range from 1 to 10000 ms. The field is disabled if the device is not set to use polling for packet detection.</td></tr>
+
+</table>
+</li>
+
+
+<li>Click <STRONG>Save</STRONG> to apply any changes or <strong>Revert</strong> to cancel.</li>
+
+<li>Click <STRONG>Yes</STRONG> when prompted to reboot the remote system.</li>
+
+
+</ol> 
+
+<h3>EtherCAT Master Redundancy</h3>
+<p class="Body">If you have more than one target connected to the same EtherCAT network, you must enable EtherCAT master redundancy on both targets. In the event that the primary EtherCAT master fails, the backup EtherCAT master becomes the primary EtherCAT master. You cannot set <strong>Startup Mode</strong> to Master Redundancy on more than one network adapter on the same target.</p>
+<p class="Body">Complete the following steps to enable master redundancy on your EtherCAT ethernet adapter.</p>
+
+<ol>
+	<li>Select <strong>EtherCAT</strong> from the <strong>Adapter Mode</strong> drop-down list.</li>
+	<li>Enter a value for <strong>EtherCAT Master ID</strong>. </li>
+	<li>Click <strong>More Settings</strong>.</li>
+	<li>Select <strong>Master Redundancy</strong> from the <strong>Startup Mode</strong> drop-down list. You must select this option for both adapters. The <strong>EtherCAT Master ID</strong> determines which adapter is the master and which remains in standby mode.</li>
+	<li>Click <strong>Save</strong> to apply the changes or <strong>Revert</strong> to cancel.</li>
+	<li>Click <strong>Yes</strong> when prompted to reboot the remote system.</li>
+</ol>
+
+<a name="wireless"></a><h2>Wireless Devices</h2>
+<p class="body">Complete the following steps to configure the network settings of your wireless devices:</p>
+<ol>
+    <li><strong>Wireless Mode</strong>&mdash;Review or enter <strong>Wireless Mode</strong> as appropriate for your device. Select <strong>Connect to wireless network</strong> to connect to an existing wireless network. Select <strong>Create wireless network</strong> to create an Ad Hoc network.</li>
+    <li><strong>MAC Address</strong>&mdash;Review the <strong>MAC Address</strong>, a read-only field that displays the media access control (MAC) address, a unique identifier for the selected network adapter. This address is used for identification purposes in MAX. If your target has more than one network adapter, the <strong>MAC Address</strong> may differ from the MAC address of the primary network adapter. The MAC Address ensures that no two devices attempt to transmit data at the same time.</li>
+<li><strong>Status</strong>&mdash;Review the connection status for the wireless network.</li>
+<li><strong>Country</strong>&mdash;If you have not previously configured the device, enter the country in which you are located. You must set <strong>Country</strong> before you can select an available channel for the wireless network.</li>
+<li><strong>Wireless Network</strong>&mdash;Select a wireless network from the drop-down list. This list is populated based on available networks for the wireless device. You must save the changes on the <strong>Network Configuration</strong> page to connect to the wireless network. 
+<br><br><strong>(Optional)</strong> To connect to a network that is not listed in the <strong>Wireless Network</strong> drop-down list, select <strong>Connect to wireless network</strong> and enter the following information:
+<ul>
+	<li><strong>SSID</strong>&#8212;Enter the public name of the network.</li>
+	<li><strong>Network Type</strong>&#8212;Select <strong>Ad Hoc</strong> or <strong>Infrastructure</strong>.</li>
+	<li><strong>Security</strong>&#8212;Select <strong>Open</strong>, <strong>WPA Personal</strong>, <strong>WPA2 Personal</strong>, <strong>WPA Enterprise</strong>, <strong>WPA2 Enterprise</strong>, or <strong>WEP</strong>.</li>
+</ul>
+</li>
+
+
+<li>Enter security credentials for the network you selected from the <strong>Wireless Network</strong> drop-down list. Depending on the security settings for the selected wireless network, you may be required to enter a WEP password, WPA security key, or your single-user WPA login information. If you have a trusted root or client certificate that corresponds to the network you selected from the <strong>Wireless Network</strong> drop-down list, click the <strong>Certificate Management</strong> button to upload the certificate to the target.</li>
+
+<li><strong>Security</strong>&mdash;Displays if you saved security settings for the network you selected from the <strong>Wireless Network</strong> drop-down list. You can remove saved security settings or add new settings.</li>
+
+<li>In the <strong>Configure IPv4 Address</strong> drop-down box, select <strong>DHCP or Link Local</strong> to have your remote system acquire an IP address automatically or <strong>Static</strong> to assign your remote system a static IP address.<br><br>
+
+If you select <strong>DHCP or Link Local</strong>, the system requests an IPv4 address from the DHCP server when the system starts up. When it assigns the IP address, the DHCP server can also assign a host name based on a requested host name from your system. If everything is configured correctly, then the DHCP server adds that host name to the DNS tables, and you can now contact this host with its host name using DNS. Because this host name request is part of the DHCP protocol, it works only with DHCP. If you use a static IP address, then you cannot use the host name to contact the remote system from another computer. The host name is just a label in this case.<br><br>
+
+While the DHCP specification allows for a remote system to request a host name from the server, it does not require that the DHCP server grant this request. The DHCP server can:
+<ul>
+<li>Grant the request.</li>
+<li>Ignore the request entirely.</li>
+<li>Alter the host name, such as turning a requested host name of <span class="Monospace">myhost</span> into <span class="Monospace">myhost_dynip123</span>.</li>
+</ul><br>
+
+The DHCP server has no feedback mechanism. The only way to find out the assigned host name is to do a reverse DNS lookup on the IP address of the system. (From a Windows command prompt, type <span class="Monospace">nslookup <span class="Monospace-Italic">&lt;ip address&gt;</span></span>.)<br><br></li>
+
+<li><strong>IPv4 Address</strong>&mdash;Review or enter the IPv4 address you want to assign to the remote system, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. This field is editable only when <strong>IPv4 Address</strong> is <strong>Static</strong>. If the selected device is the primary device, the IP address is the primary IP address of the target.</li>
+
+<li><strong>Subnet Mask</strong>&mdash;Review or enter the subnet mask for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. This field is editable only when <strong>IPv4 Address</strong> is <strong>Static</strong>. The subnet mask is the primary subnet mask of the target.</li>
+
+    <li><strong>Gateway</strong>&mdash;Review or enter the gateway for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. Set <strong>Gateway</strong> to the default configuration, <span class="Monospace">0.0.0.0</span>, if your network does not have a gateway. If <strong>IPv4 Address</strong> is <strong>DHCP or Link Local</strong>, this field displays the detected gateway server.</li>
+
+    <li><strong>DNS Server</strong>&mdash;Review or enter the DNS server address for the device, as appropriate for your device or system and <strong>Configure IPv4 Address</strong> setting. Set <strong>DNS Server</strong> to the default configuration, <span class="Monospace">0.0.0.0</span>, if your network does not have a DNS server. This field appears only for a primary device.</li>
+	
+<li>Click <strong>Save</strong> to apply any changes or <strong>Revert</strong> to cancel.</li>
+
+<li>Click <strong>Yes</strong> when prompted to reboot the remote system.</li>
+</ol> 
+
+
+
+<a name="certificate"><h2>Certificate Management</h2></a>
+
+<p class="Body">Use <strong>Certificate Management</strong> to view, manage, and upload client and trusted root certificates to your wireless network device.</p>
+
+<p class="Body">Complete the following steps to upload a certificate to the target.</p>
+
+<ol>
+	<li>Log in to the target and ensure you have permission to edit network settings.</li>
+	<li>On the <strong>Network Configuration</strong> page, click the <strong>Certificate Management</strong> button to display the certificates currently available on the target.
+	<!--<table class="Borderless">
+<tr>
+<td class="Icon"><img src="..\art\note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;You must log in and have permission to edit network settings to enable the <strong>Manage Certificates</strong> button. </td>
+</tr>
+</table> -->
+</li>
+	<li>Click <strong>Upload a new certificate</strong>.</li>
+	<li><strong>Certificate File</strong>&mdash;Browse to the location of the certificate file.</li>
+	<li><strong>(Optional)</strong> If the client certificate you upload also requires a corresponding private key, place a checkmark in the <strong>Upload the private key for this certificate. A private key is required if this is a client certificate for TLS.</strong> checkbox.</li>
+	<li><strong>(Optional)</strong> <strong>Private Key File</strong>&mdash;Enter or browse to the location of the private key file that corresponds to the client certificate.
+
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif" alt="Note"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Some private key files require a password to grant read access. You might be required to enter a password in the <strong>Key Password (Optional)</strong> text box.</td>
+</tr>
+</table></li>
+	<li>Click <strong>Upload</strong>.</li>
+	<li>Click <strong>Done</strong> to return to the <strong>Network Configuration</strong> page.</li>
+</ol>
+
+<p class="Body">You can remove a certificate from the device by clicking the <strong>Remove</strong> link displayed to the right of the target name.</p>
+</body>
+</html>

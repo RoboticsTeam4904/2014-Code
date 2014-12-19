@@ -1,0 +1,10 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+    <title>Help for Web Configuration and Monitoring</title>
+</head>
+<body>
+<h1>Help placeholder for Home WIF page.</h1>
+</body>
+</html>

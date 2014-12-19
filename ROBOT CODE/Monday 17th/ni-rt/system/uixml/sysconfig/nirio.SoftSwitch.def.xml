@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<group id="startupsettings">
+		<property id="app" caption="{noapp}" sysattr="335552512" writable="true" order="400"/>
+		<property id="fpga" caption="{nofpga}" sysattr="84955136" writable="true" order="500"/>
+	</group>
+</item>

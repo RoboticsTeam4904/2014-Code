@@ -1,0 +1,54 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Web Services Management Page</title>
+<link rel="STYLESHEET" type="text/css" href="../../../Help/minimal.css">
+</head>
+
+<body>
+<h1>Web Services Management Page</h1>
+
+<p class="body">To manage a published Web service, select the Web service in the <strong>Published Web Services</strong> pane and click one of the following buttons:</p>
+
+<ul>
+<li><strong>Pause</strong>&mdash;Pauses the Web service. Users need the <strong><span class="DNL">ManageWS</span></strong> permission to use this feature.</li>
+<li><strong>Resume</strong>&mdash;Unpauses a paused Web service. Users need the <strong><span class="DNL">ManageWS</span></strong> permission to use this feature.</li>
+<li><strong>Restart</strong>&mdash;Restarts the Web service. Users need the <strong><span class="DNL">ManageWS</span></strong> permission to use this feature.</li>
+<li><strong>Unpublish</strong>&mdash;Unpublishes the Web service and removes it from the <strong>Published Web Services</strong> pane. Users need the <strong><span class="DNL">UndeployWS</span></strong> permission to use this feature.</li>
+</ul>
+
+<table class="borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;Users need the <strong><span class="DNL">GetWSAPIKey</span></strong> permission to use the Web Services Management page.
+</td></tr>
+</table>
+
+<h2>Invoking Web Methods Manually</h2>
+
+<p class="body">Complete the following steps to manually invoke a Web method.</p>
+<ol>
+<li>Select a Web service in the <strong>Published Web Services</strong> pane. A list of available Web methods displays in the adjacent pane.</li>
+<li>Select a method from the list of available Web methods.</li>
+<li>Click <strong>Send Request</strong>. The <strong>Send Request</strong> dialog box opens.</li>
+<li>Enter additional information in the following tabs of the <strong>Send Request</strong> dialog box:</li>
+<ul>
+<li><strong>Terminals</strong>&ndash;Edit the values of the input terminals by double-clicking the <strong>Value</strong> field for each parameter. This tab is available only if input terminals are defined for the selected method.</li>
+<li><strong>Content</strong>&ndash;Enter content information specific to the type of method selected.</li>
+
+<table class="borderless">
+<tr>
+<td class="Icon"><img src="../../../Help/note.gif"></td>
+<td><strong>Note</strong>&nbsp;&nbsp;For POST methods, requests you enter in the <strong>Request</strong> field transmit as UTF-8 encoded text. Files transmit as binary data.</td></tr>
+</table>
+
+<li><strong>Advanced</strong>&ndash;Add custom headers by clicking the <strong>+</strong> button and entering the custom header and value. Invoke the Web method using a different user's credentials by selecting the <strong>Use Credentials</strong> checkbox and entering a new username and password.</li>
+<li><strong>Request/Response</strong>&ndash;The fields on this tab are unavailable until you invoke the Web method.</li>
+</ul>
+<li>Click <strong>Submit</strong> to invoke the Web method. The <strong>Request/Response</strong> tab displays the request you sent and response you received.</li>
+</ol>
+
+</body>
+</html>

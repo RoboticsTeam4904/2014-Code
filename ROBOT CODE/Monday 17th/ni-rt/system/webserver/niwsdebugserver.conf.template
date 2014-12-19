@@ -1,0 +1,23 @@
+DocumentRoot "/ni-rt/system/webserver/ws_www"
+TypesConfig "/ni-rt/system/webserver/mime.types"
+LimitWorkers 10
+LimitRequestBody 10000000
+LimitRequestForm 10000000
+LoadModulePath /ni-rt/system:/ni-rt/system/webserver/modules
+LoadModule niSessionManagerModule mod_nisessmgr
+LoadModule niAuthModule mod_niauth
+LoadModule EspModule mod_niesp
+LoadModule WSRuntime ws_runtime
+Listen $PORT$
+
+NI.ServerName "LV Debug Web Server"
+InactivityTimeout 60
+SetConnector netConnector
+AddHandler niAuthHandler
+AddHandler WSRuntime
+AddHandler fileHandler ""
+AddOutputFilter chunkFilter
+LimitUrl 1024
+ThreadStack 64K
+
+NI.WSRuntime.Configuration RemoteDebug /ni-rt/system/webserver/services

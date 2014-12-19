@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<Extension Version="1.0" Localised="False">
+  <DisplayInfo Path="DisplayInfo.xml"/>
+  <Directory>SoftwareManagement</Directory>
+  <Control ControlPath="SoftwareManagement.xap" EntryPoint="MainPage.dyn.xaml">NationalInstruments.Config.Software</Control>
+  <!-- TODO: Create icon with this name and put in your Images folder (on the server, not in this project) -->
+  <Icon>Images/SoftwareManagementIcon.png</Icon>
+  <!-- TODO: Create help file and put at location below-->
+   <Help>Help/SoftwareManagementHelp.htm</Help>
+  <ACL>
+     TODO Insert Required Permissions here if needed
+  <RequiredPermissions/>
+  </ACL>
+</Extension>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <and>
+    <or>
+      <!-- sysattr=ItemIsDevice -->
+      <eq sysattr="16781312" value="true" />
+      <!-- sysattr=ItemIsChassis -->
+      <eq sysattr="16941056" value="true" />
+    </or>
+    <!-- sysattr=SupportRenameAlias -->
+    <eq sysattr="17121280" value="true" />
+  </and>
+</binding>

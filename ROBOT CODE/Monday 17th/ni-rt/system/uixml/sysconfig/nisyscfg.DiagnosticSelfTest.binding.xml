@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+    <!-- sysattr=SupportSelfTest -->
+    <eq sysattr="17129472" value="true" />
+</binding>
